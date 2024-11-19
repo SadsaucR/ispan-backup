@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test</title>
+</head>
+<style>
+    #container{
+        display: flex;
+        /* width:300px; */
+        /* height:200px; */
+        background-color: aquamarine;
+        flex-direction: row;
+        flex-wrap: wrap;
+        row-gap: 10px;
+        column-gap: 10px;
+        padding: 10px;
+        /*overflow:auto;*/
+    }
+    #container :nth-child(1){
+        flex-grow:0;
+    }
+    #container :nth-child(2){
+        flex-grow:1;
+    }
+</style>
+<body>
+<div id="container">
+    <label>uid: </label>
+    <input type="text">
+    <input type="submit" value="送出">
+</div>
+</body>
+
+</html>

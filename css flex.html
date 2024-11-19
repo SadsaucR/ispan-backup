@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLEX用法</title>
+</head>
+<style>
+    #container{
+        display: flex;
+        width:300px;
+        /* height:200px; */
+        background-color: aquamarine;
+        flex-direction: row;
+        /* flex-wrap: wrap; /*自動將多餘部分換行* */
+        row-gap: 10px;
+        column-gap: 10px;
+        padding: 10px;
+        /* overflow:auto; */ /*搭配flex-shrink:0可產生捲軸*/
+    }
+    #container div{
+        width: 120px;
+        height: 50px;
+        background-color: bisque;
+        /*margin:10px;*/
+        /* flex-shrink: 0;*/ /*是否自動調適物件大小*/
+    }
+    #container :nth-child(1){
+        /* flex-grow:0.8; */
+        flex-shrink: 0.7;
+        order:3;  /*order指令可排序物件先後順序從左到右1~4*/
+    }
+    #container :nth-child(2){
+        /* flex-grow:0.2; */
+        flex-shrink: 0;
+        order:1;
+    }
+    #container :nth-child(3){
+        /* flex-grow:0.2; */
+        flex-shrink: 0.3;
+        order: 2;
+    }
+</style>
+<body>
+    <div id="container">
+        <div>A</div>
+        <div>B</div>
+        <div>C</div>
+    </div>
+</body>
+</html>

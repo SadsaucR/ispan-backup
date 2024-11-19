@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+.imgbox{
+    width:100%;
+    height:150px;
+    border-radius: 15px; /*border邊框給定圓角 設置50%可變成圓框*/
+    overflow:hidden; /*超出框架外的地方隱藏*/
+    position: relative;
+}
+img{
+    width:200%;
+    height:200%;
+    object-fit:cover;
+    position: relative;
+    transform: translate(-75px,-75px); /*調整圖片顯示相對位置translate(X座標,Y座標)*/
+}
+.card{
+    display: inline-block;
+    width:150px;
+    overflow: hidden; 
+}
+.overlay{
+    position: absolute;
+    left:0px;
+    top:0px;
+    right:0px;
+    bottom: 0px;
+    /* background-color: bisque; */
+}
+</style>
+<body>
+    <div class="card" style="background-color: aquamarine;">
+        <div class="imgbox">
+            <img src="img.gif">
+            <div class="overlay">
+                <input type="file">
+            </div>
+        </div>
+        <p>Hello</p>
+    </div>
+</body>
+</html>

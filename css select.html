@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>標籤選取器</title>
+</head>
+<style>
+    div,span{
+        border:5px black solid;
+        margin:10px;
+        display:inline-block;
+        width: 100px; ;
+    }
+    img{
+        width:500px;
+        height:500px;
+        object-fit:contain;
+    }
+    #set{
+        border:5px brown solid;
+        display: inline-block;
+    }
+    .set{
+        border:10px black solid;
+        display:inline-block;
+    }
+    #myul{
+        color: green;
+    }
+    /*
+    pseudo-class 虛擬類別
+    nth-child() 虛擬類別底下的attribute 用於指定項目中的子項目
+    */
+    /*table td:nth-child(2){
+        background-color: aqua;
+    }*/
+   
+    table tr:hover{
+        background-color: blanchedalmond;
+    }
+    .append::after{
+        content: "先生";
+    }
+</style>
+<body>
+    <div>A</div>
+    <span>B</span>
+    <span>C</span>
+    <div>D</div>
+    <p class="set">E</p>
+    <p id="set">F</p>
+    <hr>
+    <ul id="myul">
+        <li>AAA</li>
+        <li>BBB</li>
+        <li>CCC</li>
+    </ul>
+    <hr>
+    <table border="1">
+        <tr style="background-color: darkgray;color: azure;";>
+            <th>姓名</th>
+            <th>住址</th>
+            <th>編號</th>
+        </tr>
+        <tr>
+            <td><b class="append">王大明</b></td>
+            <td>台中市公益路2號</td>
+            <td>1111</td>
+        </tr>
+        <tr>
+            <td><u>王小明</u></td>
+            <td>台中市公益路2號</td>
+            <td>1111</td>
+        </tr>
+        <tr>
+            <td><i>王中明</i></td>
+            <td>台中市公益路2號</td>
+            <td>1111</td>
+        </tr>
+        <tr>
+            <td>王特大明</td>
+            <td>台中市公益路2號</td>
+            <td>1111</td>
+        </tr>
+    </table>
+</body>
+</html>
