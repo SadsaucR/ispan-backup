@@ -1,0 +1,31 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>宣告變數</title>
+    <script>
+        var a=0.1;
+        var b=0.2;
+        var c=a+b
+        document.write(a+"+"+b+"="+c)
+        // 運算結果不為0.3是因為
+        // JS使用二進制表示法進行運算
+        // 0.1與0.2無法用二進制表示會出現誤差
+        document.write("<br>解決方式為同乘以10使其變為整數在運算")
+        document.write("<br>SOLUTION:")
+        c=(10*a+10*b)/10
+        document.write("<br>(10 x "+a+"+10 x " +b+") /10 = "+c)
+        document.write("<br>----------------------------------------")
+        document.write("<br>設定變數add用法")
+        var salary=60000;
+        document.write("<br>var salary=60000")
+        salary++;
+        document.write("<br>var salary+=1=>"+salary)
+        document.write("<br>var salary++=>"+salary)
+        document.write("<br>var salary+1=>"+salary)
+        document.write("<br>三種方式")
+    </script>   
+</head>
+<body>
+    
+</body>
+</html>
