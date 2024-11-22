@@ -1,0 +1,57 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>陣列應用</title>
+</head>
+<body>
+    <style>
+        .style {
+            color: purple;
+            font-style: italic;
+        }
+    </style>
+    <H1 id="title"></H1>
+    <script>
+        function print(text){
+            document.write(`<span style="color: green; font-size: 26;">${text}</span>`);
+        }
+        title.innerText="陣列應用";
+        var array=[3,0,1,8,7,2,5,4,9,6];
+        print("var array=[3,0,1,8,7,2,5,4,9,6]<<<宣告一陣列array<br>")
+        print(array+"<<<印出陣列<br>");
+        print("-------------------------------------------------------------------<br>")
+        array.push(9)
+        print("array.push(9)<<<在陣列尾新增一個9<br>")
+        print(array+"<br>");
+        array.unshift(9)
+        print("array.unshift(9)<<<在陣列頭新增一個9<br>")
+        print(array+"<br>");
+        print("-------------------------------------------------------------------<br>")
+        array.pop();
+        print("array.pop()<<<移除陣列中最後一個元素<br>")
+        print(array+"<br>")
+        print("array.shift()<<<移除陣列中的第一個元素<br>")
+        array.shift();
+        print(array+"<br>")
+        print("-------------------------------------------------------------------<br>")
+        print("array.splice(2,3)<<<從array[2]移除三個元素<br>")
+        array.splice(2,3)
+        print(array+"<br>")
+        print("array.splice(2,0,1,8,7)<<<從array[2]移除0個元素，並加入1,8,7<br>")
+        array.splice(2,0,1,8,7)
+        print(array+"<br>")
+        print("-------------------------------------------------------------------<br>")
+        print("array.join(\" | \")<<<改變陣列分隔符號，預設為\"，\"<br>")
+        print(array.join(" | ")+"<br>");
+        print("var sum=0;<br>")
+        print("for(var i=0;i&lt;array.length;i++){<<<用迴圈計算陣列加總<br>")
+        print("sum+=array[i];<br>}<br>");
+        var sum=0;
+        for(var i=0;i<array.length;i++){
+            sum+=array[i];
+        }
+        print("陣列加總為"+sum);
+    </script>
+    
+</body>
+</html>

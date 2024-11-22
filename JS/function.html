@@ -1,0 +1,61 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>函數宣告應用</title>
+</head>
+<body>
+    <H1 id="report"></H1>
+    <script>
+        report.innerText="函數應用"; //在指定
+
+        function func(){
+            document.write("Hello World!")
+        }
+
+        document.write("function func{<<<宣告一函數func<br>")
+        document.write("document.write(\"Hello World!\")<<<定義func動作<br>")
+        document.write("}<br>")
+        document.write("func()<<<呼叫func函數<br>")
+        func();
+        document.write("<<<函數呼叫結果<br>")
+        document.write("--------------------------------<br>")
+        document.write("function showstar(count){<br>")
+        document.write("for (let i=1;i<=count;i++){<<<依據user給的值決定迴圈次數次數<br>") 
+        document.write("document.write(\"*\")<<<指定動作為印出\"*\"<br>")
+        document.write("}}<br>")
+        document.write("showStars(3)<<呼叫函數\"3 insert to count\" <br>") 
+        function showStars (count){
+            if(count>0 && count<100){
+            for (let i=1;i<=count;i++){
+                document.write("*");
+            }
+            document.write("此函數共執行了"+Number(count)+"次<br>")
+        }
+        else if(count<=0){
+        document.write("是要印三小幹你娘(╯°□°）╯︵ ┻━┻<br>")
+    }
+    else{
+        document.write("太大了做不到¯༼凸 ◉_◔༽凸<br>")
+    }
+}
+        showStars(3);
+        document.write("--------------------------------<br>")
+        document.write("const input=prompt(\"請輸入showStars執行次數\")<<<自行輸入次數<br>")
+        document.write("showStars(input)<<<呼叫函數\"input insert to count\"<br>")
+        const input = prompt("請輸入showStars執行次數:");
+        showStars(input);
+        document.write("--------------------------------<br>")
+        document.write("有return值之函數<br>")
+        document.write("function add(x,y){<br>")
+        document.write("return x+y;<br>}<br>")
+        function add(x,y){
+            return x+y;
+        }
+        document.write("add(1,2)<<<呼叫add函數\"1,2 insert to x,y\"<br>")
+        document.write(add(1,2))
+        document.write("<<<函數return 3<br>")
+        document.write("--------------------------------<br>")
+    </script>
+    
+</body>
+</html>

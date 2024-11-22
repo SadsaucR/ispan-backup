@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>圖片隨機輪播+圖片超連結</title>
+</head>
+<body>
+    <hr>
+    <a id="imgshref" href="https://www.google.com" target="_blank">
+        <img id="imgs" src="google.png" width="100" height="100">
+    </a>
+    <H1 id="value"></H1>
+    <div id="rep" style="color: crimson; background-color: floralwhite;display: inline-block;" ></div>
+    <script> 
+        function setimg(){
+        value=["Ǧ̶̺̖̘̄̂̚̕O͕_̷̴͍͓̭̥͈͉̱ͩ̓͛̆͡͞O̤Ģ̶̜̪̫̼̥͔̞̦̠̐̂͛̎͛̆̾̅͟L̞̥͕̄̾ͣ̚͟͢͠E͍̟̺͕͔̣̭̜̰̰̒ͪ̾̔ͦͣ́ͫ̽ͦ͢͝","Y̻͓ͥ͆̉̎̾o̸̼̭͚̿ͧ_̊͆ù͔̹̱̭͢͡T̵̢ͬͤͮ̎ṵ̷̸̦̼̦̠̪͋̓͑̿ͪ̉̋̋̌͑̓̌b̠̘̞̲̩͍̾̐ͨ̊ͫ̿ͦe̷̢̱̻͓̦̖͇͎͈ͥͧ̽ͦ̈́̊͟ͅͅ","F̨͚̼̱̝̥̔͗̍̓͗̆̓̍̐ͩͮ͘̚͝ä̩̺̗́c̡͇̪̭̪̃̓͐́͆̉̀̎e̴͈̗̺͈͍̲͈̋ͦ̌ͥ̿͆̆ͣͯ̓͋͟͠B̷̼͙ͦͭͥ͒͊͡͡ơ̡̧͍̤͙͂ͬͯͫ͗̎͗ͬ̌͆̕͞ͅò̡̧̠̤͗͂ͤ̂̐͆ͩ̃̉̚̚͝k͈ͣ"];
+        img=["google.png","youtube.png","facebook.png"];
+        url=["https://www.google.com","https://www.youtube.com","https://www.facebook.com/"];
+        var iImage=Math.floor(Math.random() *img.length);
+        document.getElementById("imgs").src = img[iImage];
+        document.getElementById("imgshref").href = url[iImage];
+        document.getElementById("value").innerText = value[iImage];
+        rep.innerText="iImage"+"="+iImage
+
+        console.log("iImage=" + iImage);
+        setTimeout(setimg,3000);
+        }
+        setimg();
+
+    </script>
+    <hr>
+
+</body>
+</html>

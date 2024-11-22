@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>即時時間顯示</title>
+</head>
+<body>
+    <hr>
+    <H1 id="report"></H1>
+    <script> 
+    function showtime(){
+        report.innerText=Date();
+        console.log(Date());
+    }
+    setInterval(showtime,1000)
+    </script>
+    <hr>
+
+</body>
+</html>
