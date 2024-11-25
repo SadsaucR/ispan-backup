@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 應用</title>
+</head>
+<body>
+    <div id="rep"></div>
+    <script>
+        class person{ //宣告class animal
+            constructor(name){ //建構式用法，會自動執行並設置物件屬性值
+                this._name=name;
+            }
+            makeSound(){
+                alert("Animal:...")
+            }
+        //除建構式用法，以下為getter setter　用法
+        get weight(){ //get 返回 weight 屬性值。
+            return this._weight; //_weight 是一個私有變數
+        } 
+        set weight(weight){ //set 將 weight 設為該值。
+                this._weight =weight
+            }
+        }
+
+        class Animal extends person{ //**Class的繼承性!，此處Animal繼承了Person的宣告方式
+            constructor(name,sex){
+                super(name); //呼叫父類建構式name
+                this.sex=sex; //新增sex屬性
+            }
+        }
+
+        var obj =new person("jasper"); //創建Animal(物件)，之後的
+        obj.weight=80; //設置 weight 屬性
+        obj.makeSound() //設置Anima類別下已經定義的方法
+        document.write(obj._name+" ")  //顯示name屬性的值 
+        document.write(obj.weight+"KG ")
+        var aobj = new Animal("Aspirin","Male");
+        aobj.weight=30;
+        document.write(aobj._name+" ")
+        document.write(aobj.weight+"KG ")
+        document.write(aobj.sex)
+   </script>
+    <pre style="font-style: oblique;">
+    </pre>
+</body>
+</html>

@@ -34,7 +34,7 @@
         array.shift();
         print(array+"<br>")
         print("-------------------------------------------------------------------<br>")
-        print("array.splice(2,3)<<<從array[2]移除三個元素<br>")
+        print("array.splice(2,3)<<<從array[2]移除3個元素<br>")
         array.splice(2,3)
         print(array+"<br>")
         print("array.splice(2,0,1,8,7)<<<從array[2]移除0個元素，並加入1,8,7<br>")
@@ -43,6 +43,7 @@
         print("-------------------------------------------------------------------<br>")
         print("array.join(\" | \")<<<改變陣列分隔符號，預設為\"，\"<br>")
         print(array.join(" | ")+"<br>");
+        print("-------------------------------------------------------------------<br>")
         print("var sum=0;<br>")
         print("for(var i=0;i&lt;array.length;i++){<<<用迴圈計算陣列加總<br>")
         print("sum+=array[i];<br>}<br>");
@@ -50,7 +51,39 @@
         for(var i=0;i<array.length;i++){
             sum+=array[i];
         }
-        print("陣列加總為"+sum);
+        print("陣列加總為"+sum+"<br>");
+        print("-------------------------------------------------------------------<br>")
+        print("array.toString<<<將陣列內容轉換為字串型態<br>")
+        print("-------------------------------------------------------------------<br>")
+        print("array.forEach(function(num)) <<<針對陣列中每個函數執行動作，如同for函數，不過更易讀簡潔。<br>")
+        print("array.forEach(print)<<<印出陣列中每個函數<br>")
+        array.forEach(print)
+        print("<br>array.forEach(num=>{<<<取陣列偶數<br>")
+        print("if(num%2===0){<br>")
+        print("print(num);<br>")
+        print("}<br>")
+        print("})<br>")
+        array.forEach(num  =>{
+            if(num%2===0){
+                print(num);
+            }
+        })
+        print("<br>-------------------------------------------------------------------<br>")
+        print("var arr1=[1,2,3,4,5] <br>")
+        print("var arr2=[6,7,8,9,0] <br>")
+        print("var arr=[...arr1,...arr2]<<<合併兩個陣列 <br>")
+        print("print(arr)<br>")
+        var arr1=[1,2,3,4,5]
+        var arr2=[6,7,8,9,0]
+        var arr=[...arr1,...arr2]
+        print(arr+"<br>")
+        print("-------------------------------------------------------------------<br>")
+        print("array.sort()<<<將陣列元素從小到大排列<br>")
+        array.sort()
+        print(array+"<br>")
+        print("array.reverse()<<<將陣列順序倒轉<br>")
+        print(array.reverse()+"<br>")
+
     </script>
     
 </body>
