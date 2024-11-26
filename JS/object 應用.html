@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OBJECT</title>
+</head>
+<body>
+    <button id="Hello">Hello</button>
+    <button id="Hi">Hi</button>
+    <script>
+        var obj={}; //建立一個空物件obj並宣告方法。
+        obj.hello=function(){
+            alert("Hello")
+        }
+        obj.hi=function(){
+            alert("Hi")
+        }
+        document.getElementById("Hello").onclick=obj.hello
+        document.getElementById("Hi").onclick=obj.hi
+    </script>
+</body>
+</html>
