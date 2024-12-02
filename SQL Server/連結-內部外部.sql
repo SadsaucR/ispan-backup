@@ -5,7 +5,7 @@ from UserInfo left join live --'join'內部連結 'left/right outter(可省略) join'外
 		on live.hid=house.hid
 	left join phone
 		on house.hid=phone.hid
-where UserInfo.uid='A04'
+
 
 
 /*from userinfo,live,house,phone --從四個資料表擷取
