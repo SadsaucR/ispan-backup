@@ -6,6 +6,8 @@ attribute 屬性 -> field 欄位
 relationship 關連性
 正規化:將Table拆分成多份，防止資料重複，並且可以省下更多空間。
 trim:頭位去空白
+SQL code :資料庫程式
+store procedure:預存程式
 -------------------------SQL建置環境--------------------------
 資料庫連接 SQL Server Express 環境
 伺服器名稱:localhost\SQLEXPRESS
