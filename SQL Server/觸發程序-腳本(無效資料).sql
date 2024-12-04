@@ -1,5 +1,6 @@
 drop trigger if exists userinfo_delete_instead
 go
+--instead of delete 偵測刪除行為，且不執行刪除動作。
 create trigger userinfo_delete_instead on userinfo instead of delete
 as 
 begin

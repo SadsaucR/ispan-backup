@@ -9,6 +9,9 @@ begin
 	--declare @body nvarchar(50)
 	--declare @n int
 	--select @n = count(*)from deleted
+
+	--@@rowcount 此處用來計算刪除的資料列數，update(password)為布林型態
+	--rollback 撤銷操作
 	print @@rowcount
 	if @@ROWCOUNT >1 and update(password)
 	begin

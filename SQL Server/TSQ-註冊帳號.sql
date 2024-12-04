@@ -4,10 +4,9 @@ drop procedure if exists register
 go
 create procedure register
 	-------宣告
-
+	@cname nvarchar(50),
 	@uid nvarchar(50),
 	@pwd nvarchar(50),
-	@cname nvarchar(50),
 	@addr nvarchar(200)
 as begin
 	-------動作
@@ -21,18 +20,24 @@ as begin
 		return
 	end
 	--執行--
-	declare @addressinsert int =0
 	declare @maxhid int 
 	set @maxhid = (
 	select max(hid) as n from house
 	)+1
-	if @addressinsert=0
+	if @pwd is not null
 	begin
-	insert into live (uid,hid) values (@uid,@maxhid)
-	insert into UserInfo (uid,password) values (@uid,@pwd)
-	print '已註冊'+@uid+'的資料'
-	insert into house (hid,address) values (@maxhid,@addr)
-	select concat(@cname,'的資料已更新') as status
-	select @cname as '名字',@uid as '帳號',@pwd as '密碼',@addr as '地址'	
+		insert into UserInfo(uid,cname,password) values (@uid,@cname,@pwd)
+		insert into House(address,hid) values (@addr,@maxhid)
+		insert into Live(hid,uid) values (@maxhid,@uid)
+		select concat(@cname,'的資料已更新') as status
+		select @cname as '名字',@uid as '帳號',@pwd as '密碼',@addr as '地址'	
+	end
+	else
+	begin
+		insert into UserInfo(uid,cname,password) values (@uid,@cname,@uid)
+		insert into House(address,hid) values (@addr,@maxhid)
+		insert into Live(hid,uid) values (@maxhid,@uid)
+		select concat(@cname,'的資料已更新') as status
+		select @cname as '名字',@uid as '帳號',@pwd as '密碼',@addr as '地址'
 	end
 end
