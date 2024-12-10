@@ -1,0 +1,12 @@
+﻿################################################################################
+# 這個 .gitignore 檔案由 Microsoft(R) Visual Studio 自動建立。
+################################################################################
+
+/.vs/VSWorkspaceState.json
+/.vs/slnx.sqlite
+/.vs/ProjectSettings.json
+/.vs/ispan-backup/v17/DocumentLayout.json
+/.vs/ispan-backup/v17/.wsuo
+/.vs/ispan-backup/FileContentIndex
+/.gitignore
+/.gitignore
