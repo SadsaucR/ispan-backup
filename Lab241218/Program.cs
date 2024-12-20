@@ -275,12 +275,144 @@ namespace Lab241218
         static void P15_tricald_test()
         {
             Console.Write("請輸入數量:");
-            int a =Convert.ToInt32(Console.ReadLine());
+            int a = Convert.ToInt32(Console.ReadLine());
             Console.Write("請輸入單價:");
             int b = Convert.ToInt32(Console.ReadLine());
-            double discount;
-            Console.Write("折扣{0}折，總金額為:{1}",(discount= (a >= 20) ? 9.0 : 9.5),(double)(0.1*discount*a*b));
+            //discount 紀錄打折參數
+            double discount = (a >= 20) ? 0.9 : discount = (a >= 10) ? 0.95 : 10;
+            Console.WriteLine("折扣{0}折，總價格為{1:0}", (a >= 20) ? "9" : (a >= 10) ? "95" : "無打", discount * a * b);
         }
+
+        //P16_Net折扣
+
+        static void P16_Netdisc()
+        {
+            int a = 399;
+            Console.Write("輸入衣服購買數量>>>");
+            int qty = Convert.ToInt32(Console.ReadLine());
+            int gate = 1500;
+            int total = a * qty;
+            double discount = (total >= gate) ? 0.79 : 1;
+            if (discount < 1)
+            {
+                Console.WriteLine("總金額為:{0:C0},超過{1}，折扣後為{2:0}", total, gate, total * discount);
+            }
+            else
+            {
+                Console.WriteLine("總金額為:{0:C0},未達{1}，還差{2:0}", total, gate, gate - total);
+            }
+        }
+
+        //P17 Switch敘述
+        static void P17_switch()
+        {
+            int a = 30;
+            string b = "";
+            switch (a)
+            {
+                case 10:
+                    b = "10";
+                    break;
+                case 20:
+                    b = "20";
+                    break;
+                default:
+                    b = "無";
+                    break;
+            }
+            Console.Write("{0}",b);
+        }
+        //P18 switch 應用
+        static void P18_switch_test()
+        {
+            Console.Write("請輸入年資:");
+            double y = Convert.ToDouble(Console.ReadLine());
+            Console.Write("請輸入月薪:");
+            double m = Convert.ToDouble(Console.ReadLine());
+            double reward = (y >= 6) ? 5 : (y >= 3 && y < 6) ? 3 : (y >= 1 && y < 3) ? 1 :0;
+            string rst = string.Empty;
+            switch (reward)
+            {
+                case 5:
+                    rst = "超過六年";
+                    break;
+                case 3:
+                    rst = "達三年未滿六年";
+                    break;
+                case 1:
+                    rst = "達一年未滿三年";
+                    break;
+                default:
+                    rst = "你個菜B不滿一年";
+                    break;
+            }
+            Console.WriteLine("試算的年資為{0}，月薪為{1:C0}", y, m);
+            Console.WriteLine("{0}，發放獎金{1}個月:{2:C0}",rst, reward, m*reward);
+        }
+        //P19 For迴圈
+
+        static void P19_forloop()
+        {
+            int sum = 0;
+            int len = 100;
+            for (int i =0; i<=len; i++)
+            {
+                if (i % 2 != 0)
+                {
+                    sum += i;
+                    Console.Write(" {0} ",i);
+                    if (i <+ len-1)
+                    {
+                        Console.Write("+");
+                    }
+                }
+            }
+            Console.WriteLine("= {0}", sum);
+        }
+
+        //P20 While迴圈
+
+        static void P20_whileloop()
+        {
+            int i = 0;
+            int sum = 0;
+            int len = 100;
+            while (i<=len)
+            {
+                if (i % 2 != 0)
+                {
+                    sum += i;
+                    Console.Write(" {0} ", i);
+                    if (i < +len - 1)
+                    {
+                        Console.Write("+");
+                    }
+                }
+                i++;
+             }
+            Console.WriteLine("= {0}", sum);
+        }
+
+        //P21 水仙花
+        static void P21_flower()
+        {
+            int total;
+            int i = 100;
+            Console.Write("在100~999之間符合的數值有:");
+            while (i<=999)
+            {
+                   total = i;
+                    int num1 = i /100; 
+                    int num2 = (i/10)%10; 
+                    int num3 = i % 10;
+                if(total== Math.Pow(num1, 3) + (Math.Pow(num2, 3) + Math.Pow(num3, 3)))
+                {
+                    Console.Write(i +" ");
+                }
+                i++;
+            }
+        }
+
         //void:此函數沒有回傳值，函數將無法return值
         //按下F5時，將執行Main中的動作，作為Program中的主程式。
         static void Main()
@@ -299,7 +431,13 @@ namespace Lab241218
             //P12_IF();
             //P13_IF_test();
             //P14_tricalc();
-            P15_tricald_test();
+            //P15_tricald_test();
+            //P16_Netdisc();
+            //P17_switch();
+            //P18_switch_test();
+            //P19_forloop();
+            // P20_whileloop();
+           P21_flower();
 
             Console.ReadKey(); //此程式將在完成時暫停
         }
