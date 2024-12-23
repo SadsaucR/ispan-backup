@@ -320,7 +320,7 @@ namespace Lab241218
                     b = "無";
                     break;
             }
-            Console.Write("{0}",b);
+            Console.Write("{0}", b);
         }
         //P18 switch 應用
         static void P18_switch_test()
@@ -329,7 +329,7 @@ namespace Lab241218
             double y = Convert.ToDouble(Console.ReadLine());
             Console.Write("請輸入月薪:");
             double m = Convert.ToDouble(Console.ReadLine());
-            double reward = (y >= 6) ? 5 : (y >= 3 && y < 6) ? 3 : (y >= 1 && y < 3) ? 1 :0;
+            double reward = (y >= 6) ? 5 : (y >= 3 && y < 6) ? 3 : (y >= 1 && y < 3) ? 1 : 0;
             string rst = string.Empty;
             switch (reward)
             {
@@ -347,7 +347,7 @@ namespace Lab241218
                     break;
             }
             Console.WriteLine("試算的年資為{0}，月薪為{1:C0}", y, m);
-            Console.WriteLine("{0}，發放獎金{1}個月:{2:C0}",rst, reward, m*reward);
+            Console.WriteLine("{0}，發放獎金{1}個月:{2:C0}", rst, reward, m * reward);
         }
         //P19 For迴圈
 
@@ -355,13 +355,13 @@ namespace Lab241218
         {
             int sum = 0;
             int len = 100;
-            for (int i =0; i<=len; i++)
+            for (int i = 0; i <= len; i++)
             {
                 if (i % 2 != 0)
                 {
                     sum += i;
-                    Console.Write(" {0} ",i);
-                    if (i <+ len-1)
+                    Console.Write(" {0} ", i);
+                    if (i < +len - 1)
                     {
                         Console.Write("+");
                     }
@@ -377,7 +377,7 @@ namespace Lab241218
             int i = 0;
             int sum = 0;
             int len = 100;
-            while (i<=len)
+            while (i <= len)
             {
                 if (i % 2 != 0)
                 {
@@ -389,7 +389,7 @@ namespace Lab241218
                     }
                 }
                 i++;
-             }
+            }
             Console.WriteLine("= {0}", sum);
         }
 
@@ -399,19 +399,242 @@ namespace Lab241218
             int total;
             int i = 100;
             Console.Write("在100~999之間符合的數值有:");
-            while (i<=999)
+            while (i <= 999)
             {
-                   total = i;
-                    int num1 = i /100; 
-                    int num2 = (i/10)%10; 
-                    int num3 = i % 10;
-                if(total== Math.Pow(num1, 3) + (Math.Pow(num2, 3) + Math.Pow(num3, 3)))
+                total = i;
+                int num1 = i / 100;
+                int num2 = (i / 10) % 10;
+                int num3 = i % 10;
+                if (total == Math.Pow(num1, 3) + (Math.Pow(num2, 3) + Math.Pow(num3, 3)))
                 {
-                    Console.Write(i +" ");
+                    Console.Write(i + " ");
                 }
                 i++;
             }
         }
+        //P22 陣列
+        static void P22_array()
+        {
+            String[] arr = { "Apple", "Banana" };
+            string[] arr2 = new string[2];
+            string[] arr3 = new string[2] { "Apple2", "Banana2" };
+
+            Console.WriteLine(arr);
+            Console.WriteLine(arr[0]);
+            Console.WriteLine(arr[1]);
+
+            Console.WriteLine(arr2[0]); //arr2為空陣列 **空陣列不等於null
+            Console.WriteLine(arr2[1]);
+
+            Console.WriteLine(arr3[0]);
+            Console.WriteLine(arr3[1]);
+
+            arr2[1] = "Orange";
+            arr2[0] = "Slut";
+            Console.WriteLine(arr2[0]);
+            Console.WriteLine(arr2[1]);
+
+        }
+
+        //P23 陣列+迴圈
+        static void P23_arrayloop()
+        {
+            string[] arr = { "Screen", "Keyboard", "Mouse", "Microphone" };
+
+            for (int i = 0; i < 4; i++)
+            {
+                Console.Write(arr[i] + " ");
+            }
+
+            //foreach (string str in arr)
+            //{
+            //    Console.Write($"{str} ");
+            //}
+            string tmp = string.Join(" ", arr);
+            Console.WriteLine(tmp);
+        }
+
+        //P24數字陣列
+
+        static void P24_intarray()
+        {
+            int[] arr = { 71, 81, 91 };
+            int[] arr2 = new int[3];
+            int[] arr3 = new int[3] { 72, 82, 92 };
+
+            Console.WriteLine(arr);
+            Console.WriteLine(arr[2]);
+            Console.WriteLine(arr2[2]);
+            Console.WriteLine(arr3[2]);
+
+            arr[0] = 100;
+            arr2[0] = 100;
+
+            string apple = string.Join("#", arr);
+            string bee = string.Join("@", arr);
+            string cat = string.Join("*", arr);
+            Console.WriteLine(apple);
+            Console.WriteLine(bee);
+            Console.WriteLine(cat);
+        }
+
+        //P25 數字陣列方法
+
+        static void P25_intarray_method()
+        {
+            int[] arr = { 10, 25, 12, 23 };
+            string lst = string.Join(" ", arr);
+            Console.WriteLine(lst);
+
+            double avg = arr.Average();
+            Console.WriteLine(avg);
+
+            int max = arr.Max();
+            Console.WriteLine(max);
+
+            int min = arr.Min();
+            Console.WriteLine(min);
+
+            Array.Sort(arr);
+            lst = string.Join(" ", arr);
+            Console.WriteLine(lst);
+        }
+
+        //P26 陣列應用
+
+        static void P26_arraytest()
+        {
+            int len = 10;
+            int[] arr = new int[len];
+            for (int i = 0; i < len; i++)
+            {
+                arr[i] = i + 1;
+                Console.WriteLine("陣列內容:ar[{0}]={1}", i, arr[i]);
+            }
+            Console.WriteLine("----------反轉----------");
+            for (int r = len - 1; r >= 0; r--)
+            {
+                Console.WriteLine("陣列內容:ar[{0}]={1}", r, arr[r]);
+            }
+        }
+
+        //P27 陣列input
+        static void P27_arraystored()
+        {
+            int[] arr = new int[100];
+            Console.Write("請輸入一個數值:");
+            int input = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("------------------");
+            Console.WriteLine("產生結果");
+            for (int i = 0; i < input; i++)
+            {
+                if (i > 1)
+                {
+                    arr[i] = arr[i - 2] + arr[i - 1];
+                }
+                else
+                {
+                    arr[i] = 1;
+                }
+                Console.WriteLine("陣列[{0}] 存放數字 {1}", i, arr[i]);
+            }
+            Console.WriteLine("------------------");
+        }
+
+        //P27 平均溫度
+        static void P28_temper()
+        {
+            int[] month = new int[12];
+            int[] temp = { 26, 28, 29, 31, 35, 34, 36, 37, 36, 32, 28, 18 };
+            for (int i = 1; i <= 12; i++)
+            {
+                Console.Write("{0}月 ", i.ToString().PadLeft(2, '0'));
+            }
+            // \n換行符號 
+            Console.WriteLine("\n-----------------------------------------------------------");
+            int total = 0;
+            for (int i = 0; i < temp.Length; i++)
+            {
+                Console.Write("{0}度 ", temp[i].ToString().PadLeft(2, '0'));
+                total += temp[i];
+            }
+            double avg = (double)total / temp.Length;
+            Console.Write("\n平均溫度為:{0:F1}", avg);
+        }
+
+        //P29 二維陣列
+        static void P29_2darray()
+        {
+            string[,] arr = new string[2, 5];
+            arr[0, 0] = "G0";
+            arr[0, 1] = "G1";
+            arr[0, 2] = "G2";
+            arr[0, 3] = "G3";
+            arr[0, 4] = "G4";
+
+            arr[1, 0] = "T0";
+            arr[1, 1] = "T1";
+            arr[1, 2] = "T2";
+            arr[1, 3] = "T3";
+            arr[1, 4] = "T4";
+            Console.WriteLine("arr");
+
+            //print  array | using for loop
+            for (int i = 0; i <= 1; i++)
+            {
+                for (int j = 0; j <= 4; j++)
+                {
+                    Console.Write("{0} ", arr[i, j]);
+                }
+                Console.Write("\n");
+            }
+            foreach (string item in arr)
+            {
+                Console.Write("{0} ", item);
+            }
+        }
+
+        //P30 3darray
+
+        static void P30_3darray()
+        {
+            int[,,] arr = new int[2, 5, 9];
+            Console.WriteLine(arr.Length); //90 2x5x9
+            Console.WriteLine(arr.Rank); //3 總和為3維陣列
+            Console.WriteLine(arr.GetLength(0)); //2
+            Console.WriteLine(arr.GetLength(1)); //5
+            Console.WriteLine(arr.GetLength(2)); //9
+        }
+
+        //P31 不規則陣列
+        static void P31_irregulararray()
+        {
+            string[][] arr = new string[2][];
+            arr[0] = new string[4];
+            arr[0][0] = "D1";
+            arr[0][1] = "D2";
+            arr[0][2] = "D3";
+            arr[0][3] = "D4";
+
+            arr[1] = new string[3];
+            arr[1][0] = "P1";
+            arr[1][1] = "P2";
+            arr[1][2] = "P3";
+
+            for(int i=0; i<arr.Length ;i++)
+            {
+                for(int j = 0; j < arr[i].Length;j++)
+                {
+                    Console.WriteLine(arr[i][j]);
+                }
+            }
+        }
+       
+    //交錯數組array[2][]有分內外層
+
+    //array.Length: 外層array的長度:2層(array[0], array[1])
+
+    //array[0].Length跟array[1].Length 才能套用相乘的那種算法
 
         //void:此函數沒有回傳值，函數將無法return值
         //按下F5時，將執行Main中的動作，作為Program中的主程式。
@@ -437,7 +660,21 @@ namespace Lab241218
             //P18_switch_test();
             //P19_forloop();
             // P20_whileloop();
-           P21_flower();
+            //P21_flower();
+            //P22_array();
+            //P23_arrayloop();
+            //P24_intarray();
+            //P25_intarray_method();
+            //P26_arraytest();
+            //P27_arraystored();
+            //P28_temper();
+            //P29_2darray();
+            //P30_3darray();
+            P31_irregulararray();
+
+
+
+
 
             Console.ReadKey(); //此程式將在完成時暫停
         }
