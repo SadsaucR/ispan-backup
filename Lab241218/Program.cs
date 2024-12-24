@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Security.Cryptography;
@@ -629,15 +630,128 @@ namespace Lab241218
                 }
             }
         }
-       
-    //交錯數組array[2][]有分內外層
+        //交錯數組array[2][]有分內外層
 
-    //array.Length: 外層array的長度:2層(array[0], array[1])
+        //array.Length: 外層array的長度:2層(array[0], array[1])
 
-    //array[0].Length跟array[1].Length 才能套用相乘的那種算法
+        //array[0].Length跟array[1].Length 才能套用相乘的那種算法
 
         //void:此函數沒有回傳值，函數將無法return值
         //按下F5時，將執行Main中的動作，作為Program中的主程式。
+
+        //P32 陣列應用2
+        static void P32_arraytest2()
+        {
+            string[] locate = { "台北","台中","高雄"};
+            string[] part = { "點心部","飲料部","小吃部","文具部"};
+            int[][] cost = new int[locate.Length][];
+            cost[0]= new int[4];
+            cost[0][0] = 1100;
+            cost[0][1] = 2200;
+            cost[0][2] = 3300;
+
+            cost[1] = new int[4];
+            cost[1][0] = 2200;
+            cost[1][1] = 4400;
+
+            cost[2]=new int[4];
+            cost[2][0] = 1000;
+            cost[2][1] = 2000;
+            cost[2][2] = 3000;
+            cost[2][3] = 4000;
+
+            int[] total = new int[locate.Length];
+
+            Console.WriteLine("\t" + string.Join("\t", part));
+            Console.WriteLine("---------------------------------------");
+            //i --> locate
+            for (int i = 0; i < locate.Length; i++)
+            {
+                Console.Write("{0}\t", locate[i]);
+                //j-->cost
+                for (int j = 0; j < cost[i].Length; j++)
+                {
+                    if (cost[i][j]==0)
+                    {
+                        Console.Write("\t");
+                    }
+                    else
+                    {
+                        Console.Write("{0}\t", cost[i][j]);
+                    }
+                    total[i] += cost[i][j];
+                }
+                Console.Write("\n");
+            }
+            Console.WriteLine("---------------------------------------");
+            for(int i=0;i<locate.Length;i++)
+            {
+                Console.WriteLine("{0}總金額: {1:C0}", locate[i], total[i]);
+            }
+        }
+
+        //P33 傳值/傳參考
+
+        static void P33_passby()
+        {
+            int a = 100;
+            int b = a;
+            Console.WriteLine(a);
+            Console.WriteLine(b);
+            b = 999;
+            Console.WriteLine("------------");
+            Console.WriteLine(a);
+            Console.WriteLine(b);
+            Console.WriteLine("------------");
+            string[] fruit = { "Apple","Banana" };
+            string[] vages = fruit;
+            Console.WriteLine(string.Join(",",fruit));
+            Console.WriteLine(string.Join(",", vages));
+            Console.WriteLine("------------");
+            vages[0] = "Carrot";
+            Console.WriteLine(string.Join(",", fruit));
+            Console.WriteLine(string.Join(",", vages));
+        }
+
+        //P34傳值傳參考-陣列應用
+        static void P34_arraylist()
+        {
+            ArrayList lst = new ArrayList();
+            lst.Add(5566);
+            lst.Add("平安夜");
+            lst.Add(true);
+            lst.Add("聖誕節");
+
+            Console.WriteLine(lst.Count); //數量
+            Console.WriteLine(lst[1]); //印出arraylist 索引中的值
+
+            lst[1] = "平安夜吃炸雞";
+            Console.WriteLine(lst[1]);
+            //印出all (string.Join)
+            Console.WriteLine("{0}",string.Join(" ",lst.ToArray()));
+
+            //印出所有(for each)
+            foreach (var item in lst)
+            {
+                Console.Write("{0} ",item);
+            }
+        }
+
+        //P35 List應用
+
+        static void P35_list()
+        {
+            List<string> list = new List<string>();
+            list.Add("A");
+            list.Add("B");
+            list.Add("C");
+
+            Console.WriteLine(list[0]);
+            Console.WriteLine(list[1]);
+
+
+        }
+
         static void Main()
         {
             //P1_console();
@@ -670,8 +784,11 @@ namespace Lab241218
             //P28_temper();
             //P29_2darray();
             //P30_3darray();
-            P31_irregulararray();
-
+            //P31_irregulararray();
+            //P32_arraytest2();
+            //P33_passby();
+            //P34_arraylist();
+            P35_list();
 
 
 
