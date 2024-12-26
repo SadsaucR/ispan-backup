@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
@@ -622,9 +623,9 @@ namespace Lab241218
             arr[1][1] = "P2";
             arr[1][2] = "P3";
 
-            for(int i=0; i<arr.Length ;i++)
+            for (int i = 0; i < arr.Length; i++)
             {
-                for(int j = 0; j < arr[i].Length;j++)
+                for (int j = 0; j < arr[i].Length; j++)
                 {
                     Console.WriteLine(arr[i][j]);
                 }
@@ -642,10 +643,10 @@ namespace Lab241218
         //P32 陣列應用2
         static void P32_arraytest2()
         {
-            string[] locate = { "台北","台中","高雄"};
-            string[] part = { "點心部","飲料部","小吃部","文具部"};
+            string[] locate = { "台北", "台中", "高雄" };
+            string[] part = { "點心部", "飲料部", "小吃部", "文具部" };
             int[][] cost = new int[locate.Length][];
-            cost[0]= new int[4];
+            cost[0] = new int[4];
             cost[0][0] = 1100;
             cost[0][1] = 2200;
             cost[0][2] = 3300;
@@ -654,7 +655,7 @@ namespace Lab241218
             cost[1][0] = 2200;
             cost[1][1] = 4400;
 
-            cost[2]=new int[4];
+            cost[2] = new int[4];
             cost[2][0] = 1000;
             cost[2][1] = 2000;
             cost[2][2] = 3000;
@@ -671,7 +672,7 @@ namespace Lab241218
                 //j-->cost
                 for (int j = 0; j < cost[i].Length; j++)
                 {
-                    if (cost[i][j]==0)
+                    if (cost[i][j] == 0)
                     {
                         Console.Write("\t");
                     }
@@ -684,7 +685,7 @@ namespace Lab241218
                 Console.Write("\n");
             }
             Console.WriteLine("---------------------------------------");
-            for(int i=0;i<locate.Length;i++)
+            for (int i = 0; i < locate.Length; i++)
             {
                 Console.WriteLine("{0}總金額: {1:C0}", locate[i], total[i]);
             }
@@ -703,9 +704,9 @@ namespace Lab241218
             Console.WriteLine(a);
             Console.WriteLine(b);
             Console.WriteLine("------------");
-            string[] fruit = { "Apple","Banana" };
+            string[] fruit = { "Apple", "Banana" };
             string[] vages = fruit;
-            Console.WriteLine(string.Join(",",fruit));
+            Console.WriteLine(string.Join(",", fruit));
             Console.WriteLine(string.Join(",", vages));
             Console.WriteLine("------------");
             vages[0] = "Carrot";
@@ -728,28 +729,253 @@ namespace Lab241218
             lst[1] = "平安夜吃炸雞";
             Console.WriteLine(lst[1]);
             //印出all (string.Join)
-            Console.WriteLine("{0}",string.Join(" ",lst.ToArray()));
+            Console.WriteLine("{0}", string.Join(" ", lst.ToArray())); //將arraylist 轉換為array
 
-            //印出所有(for each)
+            //印出all(for each)
             foreach (var item in lst)
             {
-                Console.Write("{0} ",item);
+                Console.Write("{0} ", item);
             }
         }
 
         //P35 List應用
-
+        //Remove(T item)	移除列表中首次出現的指定元素。
+        //RemoveAt(int index) 移除指定索引位置的元素。
+        //RemoveRange(int index, int count)   移除從指定索引開始的一組元素。
         static void P35_list()
         {
-            List<string> list = new List<string>();
-            list.Add("A");
-            list.Add("B");
-            list.Add("C");
+            List<int> lst = new List<int>(); //*new List<string>() <--建構函式
+            lst.Add(100);
+            lst.Add(90);
+            lst.Add(80);
+            lst.Add(70);
+            lst.Add(60);
+            lst.Add(50);
+            lst.Add(50);
+            lst.Add(50);
+            int X = lst.Count;
+            bool Y = lst.Remove(50);
+            Console.WriteLine(X);
+            Console.WriteLine(Y);
+            Console.WriteLine(string.Join(" ", lst));
+            lst.RemoveAll(x => x == 50);
+            Console.WriteLine(string.Join(" ", lst));
+            lst.RemoveRange(0, 3);
 
-            Console.WriteLine(list[0]);
-            Console.WriteLine(list[1]);
+            Console.WriteLine(string.Join(" ", lst));
 
 
+
+        }
+
+        //P36 Dict字典
+
+        static void P36_dict()
+        {
+            Dictionary<string, string> Dict2 = new Dictionary<string, string>();
+            Dict2.Add("1", "小明");
+            Dict2.Add("2", "大壯");
+            Dict2.Add("3", "小美");
+
+            Console.WriteLine("單獨印出小明: {0}", Dict2["1"]);
+
+            Console.WriteLine(string.Join("", Dict2));
+
+            foreach (KeyValuePair<string, string> item in Dict2)
+            {
+                Console.Write("{0}", item);
+            }
+
+            Console.WriteLine("\n-------------------------------");
+            foreach (string K in Dict2.Keys)
+            {
+                Console.WriteLine("{0}", K);
+            }
+        }
+
+        //P37 型態轉換
+
+        static void P37_TypeConvert()
+        {
+            double tmp = 5.2;
+            Console.WriteLine("{0}", Convert.ToInt32(tmp));
+            Console.WriteLine("{0}", (int)tmp);
+            Console.WriteLine("{0},{1}", int.Parse("5566"), int.Parse("5566").GetType());
+            Console.Clear();
+
+            string s = "5566";
+            int result;
+            bool xd = int.TryParse(s, out result);
+            Console.WriteLine(s);
+            Console.WriteLine(result);
+            Console.WriteLine(xd);
+        }
+
+        //P38 FUNCTIONNNNNNNNNNNN!
+
+        static void P38_func()
+        {
+            int ta = 5, tb = 5;
+            //傳值用法
+            int addbyval(int a, int b)
+            {
+                a = 0;
+                b = 0;
+                return a + b;
+            }
+            Console.WriteLine("{0}", addbyval(ta, tb));
+            Console.WriteLine("a={0},b={1}\n", ta, tb);
+
+            //ref 傳參考用法 指向記憶體位址 用法與*pointer類似
+            int addbyref(ref int a, ref int b)
+            {
+                a = 0;
+                b = 0;
+                return a + b;
+            }
+            Console.WriteLine("{0}", addbyref(ref ta, ref tb));
+            Console.WriteLine("a={0},b={1}", ta, tb);
+            //out 
+            bool bo(int a, int b, out int c)
+            {
+                c = a + b;
+                return true;
+            }
+            int ba = 5;
+            int bb = 6;
+            int sum;
+            bool tmp = bo(ba, bb, out sum);
+            Console.WriteLine(tmp);
+            Console.WriteLine(sum);
+
+            //in 傳參考用法，read only
+            int addbyin(in int a, in int b)
+            {
+                return a + b;
+            }
+            Console.WriteLine("{0}", addbyin(ta, tb));
+            Console.WriteLine("a={0},b={1}", ta, tb);
+
+            // ref -> 傳址 + 可以修改
+            // out -> 傳址+可以修改+脫離函式前要設定
+            // in -> 傳址 + 不能修改
+        }
+        //P39 終極密碼
+        static void P39_GuessNum()
+        {
+            int checknum(ref int minnum, ref int maxnum)
+            {
+                while (true)
+                {
+                    try
+                    {
+                        int tmp = Convert.ToInt32(Console.ReadLine());
+                        if (tmp >= maxnum)
+                        {
+                            Console.WriteLine("太大了，請重新輸入");
+                            Console.Write("請輸入數值:");
+                        }
+                        else if (tmp <= minnum)
+                        {
+                            Console.WriteLine("太小了，請重新輸入");
+                            Console.Write("請輸入數值:");
+                        }
+                        else
+                            return tmp;
+                    }
+                    catch (FormatException)
+                    {
+                        Console.WriteLine("輸入的內容不是有效的整數，請再試一次。");
+                        Console.Write("請輸入數值:");
+                    }
+                }
+            }
+
+            void game()
+            {
+                Random rn = new Random();
+                int num = rn.Next(100);
+                Console.WriteLine("數字為{0}", num);
+                int min = 0;
+                int max = 100;
+                Console.WriteLine("遊戲開始，請輸入 {0} - {1} 之間的數值", min, max);
+
+
+                for (int i = 1; i <= 100; i++)
+                {
+                    Console.Write("請輸入數值:");
+                    int input = checknum(ref min, ref max);
+
+                    if (input == num)
+                    {
+                        Console.WriteLine("恭喜！你猜中了，你猜了{0}次", i);
+                        break;
+                    }
+                    else if (input < num)
+                    {
+                        min = input;
+                    }
+                    else
+                    {
+                        max = input;
+
+                    }
+                    Console.WriteLine("介於 {0} 和 {1} 之間", min, max);
+                }
+
+                Console.Write("再次遊玩?(Y/N)=>");
+                while (true)
+                {
+                    try
+                    {
+                        string NG = Console.ReadLine();
+                        NG = NG.ToUpper();
+                        if (NG == "Y")
+                        {
+                            Console.Clear();
+                            game();
+                            return;
+                        }
+                        else if (NG == "N")
+                        {
+                            Console.Write("再見 掰掰!! 笑臉.emoji");
+                            return;
+                        }
+                        else
+                            Console.Write("你再給我亂輸入試試看=>");
+                    }
+                    catch (FormatException)
+                    {
+                        Console.Write("請再試一次=>");
+                    }
+                }
+            }
+            game();
+        }
+
+        //P40 類別 配合Student.cs使用
+
+        static void P40_class()
+        {
+            //Student st = new Student();
+            //st.studentName="小明";
+            //st.chinese = 100;
+
+            ////Console.WriteLine("{0}\n{1}\n{2}", cls.studentID, cls.studentName, cls.chinese);
+            //st.Study();
+
+            //Student.Exam("理化");
+            //// 建立第二個學生
+            //Student st2 = new Student();
+            //st2.studentName = "大壯";
+            //st2.chinese = 75;
+            //st2.Study();
+            MSIT62 s1 = new MSIT62("小明",60);
+            s1.SayHi(); 
+            MSIT62 s2 = new MSIT62("大壯",40);
+            s2.SayHi();
+            MSIT62 s3 = new MSIT62("小美", 80);
+            s3.SayHi();
         }
 
         static void Main()
@@ -788,7 +1014,13 @@ namespace Lab241218
             //P32_arraytest2();
             //P33_passby();
             //P34_arraylist();
-            P35_list();
+            //P35_list();
+            //P36_dict();
+            //P37_TypeConvert();
+            //P38_func();
+            //P39_GuessNum();
+            P40_class();
+
 
 
 
