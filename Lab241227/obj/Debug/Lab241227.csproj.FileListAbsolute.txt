@@ -1,0 +1,14 @@
+C:\Users\User\Desktop\Lab241227\bin\Debug\Lab241227.exe.config
+C:\Users\User\Desktop\Lab241227\bin\Debug\Lab241227.exe
+C:\Users\User\Desktop\Lab241227\bin\Debug\Lab241227.pdb
+C:\Users\User\Desktop\Lab241227\obj\Debug\Lab241227.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Lab241227\obj\Debug\Lab241227.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Lab241227\obj\Debug\Lab241227.exe
+C:\Users\User\Desktop\Lab241227\obj\Debug\Lab241227.pdb
+C:\Users\User\Desktop\ispan-backup\Lab241227\bin\Debug\Lab241227.exe.config
+C:\Users\User\Desktop\ispan-backup\Lab241227\bin\Debug\Lab241227.exe
+C:\Users\User\Desktop\ispan-backup\Lab241227\bin\Debug\Lab241227.pdb
+C:\Users\User\Desktop\ispan-backup\Lab241227\obj\Debug\Lab241227.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\ispan-backup\Lab241227\obj\Debug\Lab241227.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\ispan-backup\Lab241227\obj\Debug\Lab241227.exe
+C:\Users\User\Desktop\ispan-backup\Lab241227\obj\Debug\Lab241227.pdb

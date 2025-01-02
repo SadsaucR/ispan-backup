@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\ispan-backup\\ADONET2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0C5B4547-610C-48E5-BE48-618855913668}|ADONET2.csproj|c:\\users\\user\\desktop\\ispan-backup\\adonet2\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0C5B4547-610C-48E5-BE48-618855913668}|ADONET2.csproj|solutionrelative:form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C5B4547-610C-48E5-BE48-618855913668}|ADONET2.csproj|C:\\Users\\User\\Desktop\\ispan-backup\\ADONET2\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C5B4547-610C-48E5-BE48-618855913668}|ADONET2.csproj|solutionrelative:form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form3.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ispan-backup\\ADONET2\\Form3.cs",
+              "RelativeDocumentMoniker": "Form3.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\ispan-backup\\ADONET2\\Form3.cs",
+              "RelativeToolTip": "Form3.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAnwEYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T01:26:13.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form3.cs [\u8A2D\u8A08]",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ispan-backup\\ADONET2\\Form3.cs",
+              "RelativeDocumentMoniker": "Form3.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\ispan-backup\\ADONET2\\Form3.cs [\u8A2D\u8A08]",
+              "RelativeToolTip": "Form3.cs [\u8A2D\u8A08]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T01:24:33.811Z",
+              "EditorCaption": " [\u8A2D\u8A08]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+C:\Users\User\Desktop\ispan-backup\ADONET3\bin\Debug\ADONET3.exe.config
+C:\Users\User\Desktop\ispan-backup\ADONET3\bin\Debug\ADONET3.exe
+C:\Users\User\Desktop\ispan-backup\ADONET3\bin\Debug\ADONET3.pdb
+C:\Users\User\Desktop\ispan-backup\ADONET3\obj\Debug\ADONET3.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\ispan-backup\ADONET3\obj\Debug\ADONET3.Form1.resources
+C:\Users\User\Desktop\ispan-backup\ADONET3\obj\Debug\ADONET3.Properties.Resources.resources
+C:\Users\User\Desktop\ispan-backup\ADONET3\obj\Debug\ADONET3.csproj.GenerateResource.cache
+C:\Users\User\Desktop\ispan-backup\ADONET3\obj\Debug\ADONET3.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\ispan-backup\ADONET3\obj\Debug\ADONET3.exe
+C:\Users\User\Desktop\ispan-backup\ADONET3\obj\Debug\ADONET3.pdb
+C:\Users\User\Desktop\ispan-backup\ADONET3\obj\Debug\ADONET3.Form2.resources
