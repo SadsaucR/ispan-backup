@@ -18,9 +18,9 @@ namespace ADONET3
         SqlDataAdapter sqld;
         DataSet ds;
         SqlCommand cmd;
-        int currentpage=0;
-        int currentdata=0;
-        int eachpage = 3;
+        int currentpage;
+        int currentdata;
+        int eachpage = 8;
         int totaldata;
         int totalpage;
 
@@ -40,22 +40,18 @@ namespace ADONET3
 
         public void chkpage()
         {
-            if (currentpage == totalpage - 1)
-            {
+
+            if (currentpage >= totalpage - 1)
                 ButtonPgdn.Enabled = false;
-            }
+
             else
-            {
                 ButtonPgdn.Enabled = true;
-            }
+
             if (currentpage == 0)
-            {
                 ButtonPgup.Enabled = false;
-            }
+
             else
-            {
                 ButtonPgup.Enabled = true;
-            }
         }
 
         public void display()
@@ -73,7 +69,7 @@ namespace ADONET3
             ButtonPgup.Text = "上一頁";
             ButtonPgdn.Text = "下一頁";
             label1.Text = "已選出的資料列:";
-            sqlc= new SqlConnection(ADONET3.Properties.Settings.Default.NorthwindConnectionString);
+            sqlc= new SqlConnection(ADONET3.Properties.Settings.Default.DW2022);
             sqld = new SqlDataAdapter();
             ds = new DataSet();
             ButtonPgup.Enabled = false;
@@ -83,21 +79,25 @@ namespace ADONET3
         private void ButtonSelect_Click(object sender, EventArgs e)
         {
             currentpage = 0;
+            currentdata = 0;
             ButtonPgup.Enabled = true;
             ButtonPgdn.Enabled = true;
-            cmdin($"select * from Employees order by EmployeeID", "sub");
+            //cmdin($"select * from Employees order by EmployeeID", "sub");
+            cmdin($"select * from DimCurrency order by CurrencyKey","sub");
             totaldata = ds.Tables["sub"].Rows.Count;
-            totalpage = totaldata / eachpage;
-            cmdin($"select * from Employees order by EmployeeID offset {currentdata} rows fetch next {eachpage} rows only","main");
+            totalpage = (int)Math.Ceiling((double)totaldata / eachpage);
+            //cmdin($"select * from Employees order by EmployeeID offset {currentdata} rows fetch next {eachpage} rows only","main");
+            cmdin($"select * from DimCurrency order by CurrencyKey OFFSET {currentdata}  ROWS FETCH NEXT {eachpage}   ROWS ONLY","main");
+            chkpage();
             display();
         }
 
         private void ButtonPgdn_Click(object sender, EventArgs e)
-        {
+        { 
             currentpage++;
             chkpage();
             currentdata += eachpage;
-            cmdin($"select * from Employees order by EmployeeID offset  {currentdata}  rows fetch next {eachpage} rows only", "main");
+            cmdin($"select * from DimCurrency order by CurrencyKey OFFSET {currentdata}  ROWS FETCH NEXT {eachpage}   ROWS ONLY", "main");
             display();
         }
 
@@ -106,7 +106,7 @@ namespace ADONET3
             currentpage--;
             chkpage();
             currentdata -= eachpage;
-            cmdin($"select * from Employees order by EmployeeID offset  {currentdata}   rows fetch next {eachpage} rows only", "main");
+            cmdin($"select * from DimCurrency order by CurrencyKey OFFSET {currentdata}  ROWS FETCH NEXT {eachpage}   ROWS ONLY","main");
             display();   
         }
         }

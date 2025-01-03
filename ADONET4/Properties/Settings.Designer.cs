@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ADONET3.Properties {
+namespace ADONET4.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
@@ -28,9 +28,9 @@ namespace ADONET3.Properties {
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
         [global::System.Configuration.DefaultSettingValueAttribute("Data Source=localhost\\SQLEXPRESS;Initial Catalog=Northwind;Integrated Security=Tr" +
             "ue;Encrypt=True;TrustServerCertificate=True")]
-        public string NorthwindConnectionString {
+        public string NW {
             get {
-                return ((string)(this["NorthwindConnectionString"]));
+                return ((string)(this["NW"]));
             }
         }
         
@@ -39,9 +39,9 @@ namespace ADONET3.Properties {
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
         [global::System.Configuration.DefaultSettingValueAttribute("Data Source=localhost\\SQLEXPRESS;Initial Catalog=AdventureWorksDW2022;Integrated " +
             "Security=True;TrustServerCertificate=True")]
-        public string DW2022 {
+        public string DW {
             get {
-                return ((string)(this["DW2022"]));
+                return ((string)(this["DW"]));
             }
         }
     }
