@@ -1,0 +1,10 @@
+C:\Users\User\Desktop\ispan-backup\ADONET5\bin\Debug\ADONET5.exe.config
+C:\Users\User\Desktop\ispan-backup\ADONET5\bin\Debug\ADONET5.exe
+C:\Users\User\Desktop\ispan-backup\ADONET5\bin\Debug\ADONET5.pdb
+C:\Users\User\Desktop\ispan-backup\ADONET5\obj\Debug\ADONET5.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\ispan-backup\ADONET5\obj\Debug\ADONET5.Form1.resources
+C:\Users\User\Desktop\ispan-backup\ADONET5\obj\Debug\ADONET5.Properties.Resources.resources
+C:\Users\User\Desktop\ispan-backup\ADONET5\obj\Debug\ADONET5.csproj.GenerateResource.cache
+C:\Users\User\Desktop\ispan-backup\ADONET5\obj\Debug\ADONET5.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\ispan-backup\ADONET5\obj\Debug\ADONET5.exe
+C:\Users\User\Desktop\ispan-backup\ADONET5\obj\Debug\ADONET5.pdb

@@ -20,7 +20,7 @@ namespace ADONET4
         //宣告會跨函數的變數
         private int currentPage;
         private int[,] Pages;
-        private int temp;
+        private int temp=0;
         private int totalPages;
         private int eachPage;
 

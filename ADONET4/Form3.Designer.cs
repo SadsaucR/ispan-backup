@@ -37,6 +37,8 @@
             this.txtName = new System.Windows.Forms.TextBox();
             this.result = new System.Windows.Forms.TextBox();
             this.ButtonMod = new System.Windows.Forms.Button();
+            this.ButtonIsnull = new System.Windows.Forms.Button();
+            this.ButtonUpdate2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -66,7 +68,7 @@
             this.ButtonTest.Name = "ButtonTest";
             this.ButtonTest.Size = new System.Drawing.Size(141, 59);
             this.ButtonTest.TabIndex = 2;
-            this.ButtonTest.Text = "Test";
+            this.ButtonTest.Text = "BrowseAll";
             this.ButtonTest.UseVisualStyleBackColor = true;
             this.ButtonTest.Click += new System.EventHandler(this.ButtonTest_Click);
             // 
@@ -118,15 +120,37 @@
             this.ButtonMod.Name = "ButtonMod";
             this.ButtonMod.Size = new System.Drawing.Size(141, 59);
             this.ButtonMod.TabIndex = 8;
-            this.ButtonMod.Text = "Test";
+            this.ButtonMod.Text = "Show Modify";
             this.ButtonMod.UseVisualStyleBackColor = true;
             this.ButtonMod.Click += new System.EventHandler(this.ButtonMod_Click);
+            // 
+            // ButtonIsnull
+            // 
+            this.ButtonIsnull.Location = new System.Drawing.Point(686, 25);
+            this.ButtonIsnull.Name = "ButtonIsnull";
+            this.ButtonIsnull.Size = new System.Drawing.Size(141, 59);
+            this.ButtonIsnull.TabIndex = 9;
+            this.ButtonIsnull.Text = "Isnull";
+            this.ButtonIsnull.UseVisualStyleBackColor = true;
+            this.ButtonIsnull.Click += new System.EventHandler(this.ButtonIsnull_Click);
+            // 
+            // ButtonUpdate2
+            // 
+            this.ButtonUpdate2.Location = new System.Drawing.Point(848, 25);
+            this.ButtonUpdate2.Name = "ButtonUpdate2";
+            this.ButtonUpdate2.Size = new System.Drawing.Size(141, 59);
+            this.ButtonUpdate2.TabIndex = 10;
+            this.ButtonUpdate2.Text = "Update TSQ";
+            this.ButtonUpdate2.UseVisualStyleBackColor = true;
+            this.ButtonUpdate2.Click += new System.EventHandler(this.ButtonUpdate2_Click);
             // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1373, 663);
+            this.Controls.Add(this.ButtonUpdate2);
+            this.Controls.Add(this.ButtonIsnull);
             this.Controls.Add(this.ButtonMod);
             this.Controls.Add(this.result);
             this.Controls.Add(this.txtName);
@@ -140,6 +164,7 @@
             this.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.Name = "Form3";
             this.Text = "Form3";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form3_FormClosing);
             this.Load += new System.EventHandler(this.Form3_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
@@ -158,5 +183,7 @@
         private System.Windows.Forms.TextBox txtName;
         private System.Windows.Forms.TextBox result;
         private System.Windows.Forms.Button ButtonMod;
+        private System.Windows.Forms.Button ButtonIsnull;
+        private System.Windows.Forms.Button ButtonUpdate2;
     }
 }

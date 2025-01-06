@@ -1,4 +1,3 @@
-update UserInfo set cname='Jasper'
-where uid ='C01'
-select * from userinfo
-select * from log
+select * from DimCurrency
+update DimCurrency set CurrencyKey=
+where CurrencyKey =
