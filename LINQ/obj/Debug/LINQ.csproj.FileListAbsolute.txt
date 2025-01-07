@@ -1,0 +1,12 @@
+C:\Users\User\Desktop\ispan-backup\LINQ\bin\Debug\LINQ.exe.config
+C:\Users\User\Desktop\ispan-backup\LINQ\bin\Debug\LINQ.exe
+C:\Users\User\Desktop\ispan-backup\LINQ\bin\Debug\LINQ.pdb
+C:\Users\User\Desktop\ispan-backup\LINQ\obj\Debug\LINQ.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\ispan-backup\LINQ\obj\Debug\LINQ.Form1.resources
+C:\Users\User\Desktop\ispan-backup\LINQ\obj\Debug\LINQ.Properties.Resources.resources
+C:\Users\User\Desktop\ispan-backup\LINQ\obj\Debug\LINQ.csproj.GenerateResource.cache
+C:\Users\User\Desktop\ispan-backup\LINQ\obj\Debug\LINQ.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\ispan-backup\LINQ\obj\Debug\LINQ.exe
+C:\Users\User\Desktop\ispan-backup\LINQ\obj\Debug\LINQ.pdb
+C:\Users\User\Desktop\ispan-backup\LINQ\obj\Debug\LINQ.Form2.resources
+C:\Users\User\Desktop\ispan-backup\LINQ\obj\Debug\LINQ.Form3.resources

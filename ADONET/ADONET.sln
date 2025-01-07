@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADONET4", "..\ADONET4\ADONE
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADONET5", "..\ADONET5\ADONET5.csproj", "{F463BF6D-B721-4A70-91A2-4E11EC4C38C6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADONET6", "..\ADONET6\ADONET6.csproj", "{0FA83D54-DCE5-43E7-9EA8-CA2F7B3AA727}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{F463BF6D-B721-4A70-91A2-4E11EC4C38C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F463BF6D-B721-4A70-91A2-4E11EC4C38C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F463BF6D-B721-4A70-91A2-4E11EC4C38C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FA83D54-DCE5-43E7-9EA8-CA2F7B3AA727}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FA83D54-DCE5-43E7-9EA8-CA2F7B3AA727}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FA83D54-DCE5-43E7-9EA8-CA2F7B3AA727}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FA83D54-DCE5-43E7-9EA8-CA2F7B3AA727}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

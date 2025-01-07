@@ -45,7 +45,7 @@ namespace ADONET5
         public int PikaInserter(DataTable dt)
         {
 
-            SqlCommandBuilder sqlb = new SqlCommandBuilder(sqld);
+            sqlb = new SqlCommandBuilder(sqld);
 
             SqlCommand insert_cmd = sqlb.GetInsertCommand();
 
