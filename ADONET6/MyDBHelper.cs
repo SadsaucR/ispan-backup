@@ -4,8 +4,10 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Data.SqlTypes;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 
 namespace ADONET6
 {
@@ -13,13 +15,12 @@ namespace ADONET6
     {
         private SqlConnection sqlc { get; set; }
         private SqlDataAdapter sqld { get; set; }
-
         private DataSet ds { get; set; }
         private SqlCommandBuilder sqlb { get; set; }
 
         public MyDBHelper()
         {
-            sqlc = new SqlConnection(ADONET6.Properties.Settings.Default.DW);
+            sqlc = new SqlConnection("Data Source=localhost\\SQLEXPRESS;Initial Catalog=AdventureWorksDW2022;Integrated Security=True;TrustServerCertificate=True");
             sqld = new SqlDataAdapter();
             ds = new DataSet();
         }
@@ -31,18 +32,41 @@ namespace ADONET6
             return ds.Tables["main"];
         }
 
-        public int InsertData(DataTable dt)
+        public bool InsertData(string code, string[] key, string[] values)
         {
-            sqlb = new SqlCommandBuilder(sqld);
-            SqlCommand insert_cmd = sqlb.GetInsertCommand();
-            sqld.InsertCommand = insert_cmd;
-            int temp = sqld.Update(dt);
+            //將key,values傳入主程式的@key,@name中
+            sqld.InsertCommand = new SqlCommand(code, sqlc);
+            for (int i = 0; i < key.Length; i++)
+            {
+                sqld.InsertCommand.Parameters.AddWithValue(key[i], values[i]);
+            }
+            //宣告一個變數存放已新增的資料數
+            sqlc.Open();
+            int Insert_count = sqld.InsertCommand.ExecuteNonQuery();
+            sqlc.Close();
+            bool temp = (Insert_count == 1 ? true : false);
             return temp;
         }
 
-        public void checkkey()
+        public void updateData(string code, string[] key, string[] values)
         {
-
+            SqlCommand xa = sqlb.GetUpdateCommand();
+            sqld.SelectCommand = xa;
+            for (int i = 0; i < key.Length; i++)
+            {
+                sqld.UpdateCommand.Parameters.AddWithValue(key[i], values[i]);
+            }
+            //宣告一個變數存放已新增的資料數
+            sqlc.Open();
+            int Update_count = sqld.UpdateCommand.ExecuteNonQuery();
+            sqlc.Close();
+            bool temp = (Update_count == 1 ? true : false);
+            //return temp;
+            //sqld.Update(ds, "main");
+            //sqld.UpdateCommand = new SqlCommand(sql, sqlc);
+            //sqld.UpdateCommand.Parameters.AddWithValue("@AK", txtKey.Text);
+            //sqld.UpdateCommand.Parameters.AddWithValue("@CN", txtName.Text);
+            //sqld.UpdateCommand.Parameters.AddWithValue("@PCK", txtID.Text);
         }
 
     }

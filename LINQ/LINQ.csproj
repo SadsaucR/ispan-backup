@@ -33,8 +33,18 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -47,12 +57,52 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Car%28繼承練習%29.cs" />
+    <Compile Include="classcontent.cs" />
     <Compile Include="classlist%28介面%29.cs" />
+    <Compile Include="Customers.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form10_LINQ_test.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form10_LINQ_test.Designer.cs">
+      <DependentUpon>Form10_LINQ_test.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form11_arraylist.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form11_arraylist.Designer.cs">
+      <DependentUpon>Form11_arraylist.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form12_LINQtoSQL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form12_LINQtoSQL.Designer.cs">
+      <DependentUpon>Form12_LINQtoSQL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form13_LINQ_to_SQL_Lambda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form13_LINQ_to_SQL_Lambda.Designer.cs">
+      <DependentUpon>Form13_LINQ_to_SQL_Lambda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form14_LINQ_to_Entity.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form14_LINQ_to_Entity.Designer.cs">
+      <DependentUpon>Form14_LINQ_to_Entity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form15_LINQ_TO_ENTITY_LAMBDA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form15_LINQ_TO_ENTITY_LAMBDA.Designer.cs">
+      <DependentUpon>Form15_LINQ_TO_ENTITY_LAMBDA.cs</DependentUpon>
     </Compile>
     <Compile Include="Form2.cs">
       <SubType>Form</SubType>
@@ -102,10 +152,51 @@
     <Compile Include="Form9_Lambda_where.Designer.cs">
       <DependentUpon>Form9_Lambda_where.cs</DependentUpon>
     </Compile>
+    <Compile Include="Model1.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model1.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model1.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="MYDataClasses1.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MYDataClasses1.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Orders.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form10_LINQ_test.resx">
+      <DependentUpon>Form10_LINQ_test.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form11_arraylist.resx">
+      <DependentUpon>Form11_arraylist.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form12_LINQtoSQL.resx">
+      <DependentUpon>Form12_LINQtoSQL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form13_LINQ_to_SQL_Lambda.resx">
+      <DependentUpon>Form13_LINQ_to_SQL_Lambda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form14_LINQ_to_Entity.resx">
+      <DependentUpon>Form14_LINQ_to_Entity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form15_LINQ_TO_ENTITY_LAMBDA.resx">
+      <DependentUpon>Form15_LINQ_TO_ENTITY_LAMBDA.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
@@ -140,6 +231,22 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EntityDeploy Include="Model1.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>Model1.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="Model1.edmx.diagram">
+      <DependentUpon>Model1.edmx</DependentUpon>
+    </None>
+    <None Include="MYDataClasses1.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>MYDataClasses1.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MYDataClasses1.dbml.layout">
+      <DependentUpon>MYDataClasses1.dbml</DependentUpon>
+    </None>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -152,6 +259,22 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Model1.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Model1.edmx</DependentUpon>
+      <LastGenOutput>Model1.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Model1.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Model1.edmx</DependentUpon>
+      <LastGenOutput>Model1.cs</LastGenOutput>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -3,12 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\ispan-backup\\LINQ\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{38145A06-36AD-43B1-9F96-932E69DFF4FC}|LINQ.csproj|c:\\users\\user\\desktop\\ispan-backup\\linq\\form8_lambda_select.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38145A06-36AD-43B1-9F96-932E69DFF4FC}|LINQ.csproj|solutionrelative:form8_lambda_select.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{38145A06-36AD-43B1-9F96-932E69DFF4FC}|LINQ.csproj|c:\\users\\user\\desktop\\ispan-backup\\linq\\form15_linq_to_entity_lambda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38145A06-36AD-43B1-9F96-932E69DFF4FC}|LINQ.csproj|solutionrelative:form15_linq_to_entity_lambda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38145A06-36AD-43B1-9F96-932E69DFF4FC}|LINQ.csproj|c:\\users\\user\\desktop\\ispan-backup\\linq\\form8_lambda_select.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{38145A06-36AD-43B1-9F96-932E69DFF4FC}|LINQ.csproj|solutionrelative:form8_lambda_select.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{38145A06-36AD-43B1-9F96-932E69DFF4FC}|LINQ.csproj|c:\\users\\user\\desktop\\ispan-backup\\linq\\form15_linq_to_entity_lambda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{38145A06-36AD-43B1-9F96-932E69DFF4FC}|LINQ.csproj|solutionrelative:form15_linq_to_entity_lambda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38145A06-36AD-43B1-9F96-932E69DFF4FC}|LINQ.csproj|c:\\users\\user\\desktop\\ispan-backup\\linq\\form14_linq_to_entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38145A06-36AD-43B1-9F96-932E69DFF4FC}|LINQ.csproj|solutionrelative:form14_linq_to_entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38145A06-36AD-43B1-9F96-932E69DFF4FC}|LINQ.csproj|c:\\users\\user\\desktop\\ispan-backup\\linq\\form14_linq_to_entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{38145A06-36AD-43B1-9F96-932E69DFF4FC}|LINQ.csproj|solutionrelative:form14_linq_to_entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38145A06-36AD-43B1-9F96-932E69DFF4FC}|LINQ.csproj|c:\\users\\user\\desktop\\ispan-backup\\linq\\form13_linq_to_sql_lambda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38145A06-36AD-43B1-9F96-932E69DFF4FC}|LINQ.csproj|solutionrelative:form13_linq_to_sql_lambda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38145A06-36AD-43B1-9F96-932E69DFF4FC}|LINQ.csproj|c:\\users\\user\\desktop\\ispan-backup\\linq\\form13_linq_to_sql_lambda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{38145A06-36AD-43B1-9F96-932E69DFF4FC}|LINQ.csproj|solutionrelative:form13_linq_to_sql_lambda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38145A06-36AD-43B1-9F96-932E69DFF4FC}|LINQ.csproj|c:\\users\\user\\desktop\\ispan-backup\\linq\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38145A06-36AD-43B1-9F96-932E69DFF4FC}|LINQ.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,31 +38,94 @@
       "DocumentGroups": [
         {
           "DockedWidth": 202,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form8_Lambda_select.cs [\u8A2D\u8A08]",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ispan-backup\\LINQ\\Form8_Lambda_select.cs",
-              "RelativeDocumentMoniker": "Form8_Lambda_select.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\ispan-backup\\LINQ\\Form8_Lambda_select.cs [\u8A2D\u8A08]*",
-              "RelativeToolTip": "Form8_Lambda_select.cs [\u8A2D\u8A08]*",
+              "DocumentIndex": 0,
+              "Title": "Form15_LINQ_TO_ENTITY_LAMBDA.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ispan-backup\\LINQ\\Form15_LINQ_TO_ENTITY_LAMBDA.cs",
+              "RelativeDocumentMoniker": "Form15_LINQ_TO_ENTITY_LAMBDA.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\ispan-backup\\LINQ\\Form15_LINQ_TO_ENTITY_LAMBDA.cs",
+              "RelativeToolTip": "Form15_LINQ_TO_ENTITY_LAMBDA.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAA9wCcAAABhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-08T07:14:56.807Z",
+              "WhenOpened": "2025-01-10T05:58:31.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form13_LINQ_to_SQL_Lambda.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ispan-backup\\LINQ\\Form13_LINQ_to_SQL_Lambda.cs",
+              "RelativeDocumentMoniker": "Form13_LINQ_to_SQL_Lambda.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\ispan-backup\\LINQ\\Form13_LINQ_to_SQL_Lambda.cs",
+              "RelativeToolTip": "Form13_LINQ_to_SQL_Lambda.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAIA0wCoAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T06:06:42.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form13_LINQ_to_SQL_Lambda.cs [\u8A2D\u8A08]",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ispan-backup\\LINQ\\Form13_LINQ_to_SQL_Lambda.cs",
+              "RelativeDocumentMoniker": "Form13_LINQ_to_SQL_Lambda.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\ispan-backup\\LINQ\\Form13_LINQ_to_SQL_Lambda.cs [\u8A2D\u8A08]",
+              "RelativeToolTip": "Form13_LINQ_to_SQL_Lambda.cs [\u8A2D\u8A08]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T06:06:41.798Z",
               "EditorCaption": " [\u8A2D\u8A08]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form8_Lambda_select.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ispan-backup\\LINQ\\Form8_Lambda_select.cs",
-              "RelativeDocumentMoniker": "Form8_Lambda_select.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\ispan-backup\\LINQ\\Form8_Lambda_select.cs*",
-              "RelativeToolTip": "Form8_Lambda_select.cs*",
-              "ViewState": "AgIAACcAAAAAAAAAAAA9wDMAAABHAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Form14_LINQ_to_Entity.cs [\u8A2D\u8A08]",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ispan-backup\\LINQ\\Form14_LINQ_to_Entity.cs",
+              "RelativeDocumentMoniker": "Form14_LINQ_to_Entity.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\ispan-backup\\LINQ\\Form14_LINQ_to_Entity.cs [\u8A2D\u8A08]",
+              "RelativeToolTip": "Form14_LINQ_to_Entity.cs [\u8A2D\u8A08]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-08T07:20:47.707Z",
+              "WhenOpened": "2025-01-10T06:06:22.568Z",
+              "EditorCaption": " [\u8A2D\u8A08]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ispan-backup\\LINQ\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\ispan-backup\\LINQ\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAuwBIAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T06:04:43.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form15_LINQ_TO_ENTITY_LAMBDA.cs [\u8A2D\u8A08]",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ispan-backup\\LINQ\\Form15_LINQ_TO_ENTITY_LAMBDA.cs",
+              "RelativeDocumentMoniker": "Form15_LINQ_TO_ENTITY_LAMBDA.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\ispan-backup\\LINQ\\Form15_LINQ_TO_ENTITY_LAMBDA.cs [\u8A2D\u8A08]",
+              "RelativeToolTip": "Form15_LINQ_TO_ENTITY_LAMBDA.cs [\u8A2D\u8A08]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T05:56:32.967Z",
+              "EditorCaption": " [\u8A2D\u8A08]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form14_LINQ_to_Entity.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ispan-backup\\LINQ\\Form14_LINQ_to_Entity.cs",
+              "RelativeDocumentMoniker": "Form14_LINQ_to_Entity.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\ispan-backup\\LINQ\\Form14_LINQ_to_Entity.cs",
+              "RelativeToolTip": "Form14_LINQ_to_Entity.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAIA2wCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T03:52:13.08Z",
               "EditorCaption": ""
             }
           ]

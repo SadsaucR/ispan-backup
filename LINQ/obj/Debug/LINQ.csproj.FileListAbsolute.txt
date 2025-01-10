@@ -15,3 +15,16 @@ C:\Users\User\Desktop\ispan-backup\LINQ\obj\Debug\LINQ.Form5.resources
 C:\Users\User\Desktop\ispan-backup\LINQ\obj\Debug\LINQ.Form6_LINQ_from.resources
 C:\Users\User\Desktop\ispan-backup\LINQ\obj\Debug\LINQ.Form7_LINQ_where.resources
 C:\Users\User\Desktop\ispan-backup\LINQ\obj\Debug\LINQ.Form8_Lambda_select.resources
+C:\Users\User\Desktop\ispan-backup\LINQ\obj\Debug\LINQ.Form9_Lambda_where.resources
+C:\Users\User\Desktop\ispan-backup\LINQ\obj\Debug\LINQ.Form10_LINQ_test.resources
+C:\Users\User\Desktop\ispan-backup\LINQ\obj\Debug\LINQ.Form11_arraylist.resources
+C:\Users\User\Desktop\ispan-backup\LINQ\obj\Debug\LINQ.Form12_LINQtoSQL.resources
+C:\Users\User\Desktop\ispan-backup\LINQ\obj\Debug\LINQ.Form13_LINQ_to_SQL_Lambda.resources
+C:\Users\User\Desktop\ispan-backup\LINQ\bin\Debug\EntityFramework.dll
+C:\Users\User\Desktop\ispan-backup\LINQ\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\Desktop\ispan-backup\LINQ\bin\Debug\EntityFramework.xml
+C:\Users\User\Desktop\ispan-backup\LINQ\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\Desktop\ispan-backup\LINQ\bin\Debug\zh-Hant\EntityFramework.resources.dll
+C:\Users\User\Desktop\ispan-backup\LINQ\obj\Debug\LINQ.Form14_LINQ_to_Entity.resources
+C:\Users\User\Desktop\ispan-backup\LINQ\obj\Debug\LINQ.csproj.Up2Date
+C:\Users\User\Desktop\ispan-backup\LINQ\obj\Debug\LINQ.Form15_LINQ_TO_ENTITY_LAMBDA.resources

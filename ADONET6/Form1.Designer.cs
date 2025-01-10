@@ -37,6 +37,7 @@
             this.ButtonWhere = new System.Windows.Forms.Button();
             this.ButtonAll = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -110,7 +111,7 @@
             this.ButtonWhere.Name = "ButtonWhere";
             this.ButtonWhere.Size = new System.Drawing.Size(198, 56);
             this.ButtonWhere.TabIndex = 22;
-            this.ButtonWhere.Text = "Insert";
+            this.ButtonWhere.Text = "開啟綁定功能";
             this.ButtonWhere.UseVisualStyleBackColor = true;
             this.ButtonWhere.Click += new System.EventHandler(this.ButtonWhere_Click);
             // 
@@ -134,12 +135,24 @@
             this.button1.TabIndex = 29;
             this.button1.Text = "Add ALT_Key";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(851, 34);
+            this.button2.Margin = new System.Windows.Forms.Padding(5);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(193, 56);
+            this.button2.TabIndex = 30;
+            this.button2.Text = "Add ALT_Key";
+            this.button2.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1101, 594);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.name);
             this.Controls.Add(this.id);
@@ -171,6 +184,7 @@
         private System.Windows.Forms.Button ButtonWhere;
         private System.Windows.Forms.Button ButtonAll;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
     }
 }
 

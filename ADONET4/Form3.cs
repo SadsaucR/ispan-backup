@@ -60,7 +60,7 @@ namespace ADONET4
             SqlCommandBuilder sqlb = new SqlCommandBuilder(sqld);
             //使用builder.GetUpdateCommand()生成update指令
             SqlCommand update_cmd = sqlb.GetUpdateCommand();
-            //result.Text=update_cmd.CommandText;
+            result.Text=update_cmd.CommandText;
             sqld.UpdateCommand = update_cmd;
 
             //update(#dataset , #table) 將顯示更新成功的資料數      
