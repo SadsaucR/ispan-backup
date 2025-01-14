@@ -1,55 +1,147 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
+ 
 <head>
-  <meta charset="utf-8">
-  <title>accordion demo</title>
-  <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.0/themes/base/jquery-ui.css">
-  <script src="http://code.jquery.com/jquery-1.9.0.js"></script>
-  <script src="http://code.jquery.com/ui/1.10.0/jquery-ui.js"></script>
+    <meta charset="UTF-8">
+    <title>Lab</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/jquery.toast.css">
 </head>
+ 
 <body>
  
-<div id="accordion">
-  <h4>Section 1</h4>
-  <div>
-    <p>Mauris mauris ante, blandit et, ultrices a, suscipit eget.
-    Integer ut neque. Vivamus nisi metus, molestie vel, gravida in,
-    condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros.
-    Nam mi. Proin viverra leo ut odio.</p>
-  </div>
-  <h4>Section 2</h4>
-  <div>
-    <p>Sed non urna. Phasellus eu ligula. Vestibulum sit amet purus.
-    Vivamus hendrerit, dolor aliquet laoreet, mauris turpis velit,
-    faucibus interdum tellus libero ac justo.</p>
-  </div>
-  <h4>Section 3</h4>
-  <div>
-    <p>Nam enim risus, molestie et, porta ac, aliquam ac, risus.
-    Quisque lobortis.Phasellus pellentesque purus in massa.</p>
-    <ul>
-      <li>List item one</li>
-      <li>List item two</li>
-      <li>List item three</li>
-    </ul>
-  </div>
-</div>
+    <div class="container">
  
-<script>
-
-  // $("#accordion").accordion();
-  // $("#accordion").accordion({ active: 2 });
-  // $("#accordion").accordion({ collapsible: true });
-  // $("#accordion").accordion({ event: "mouseover" });
-  $("#accordion").accordion({ header: "h4" });
-  $("#accordion").accordion( "destroy" );
-
-
-  $("#accordion").append("<h4>Section New</h4><div>new content<br>Line2</div>");
-  $("#accordion").accordion({ header: "h4" });
-
-
-</script>
+        <div class="page-header">
+            <h2>哪一隻是貓?</h2>
+        </div>
+ 
+        <div class="row" id="divPets">
+ 
+            <div class="col-sm-4">
+                <img id="imgDog" src="images/dog.jpeg" data-name="dog" class="pet img-responsive img-thumbnail" />
+            </div>
+ 
+            <div class="col-sm-4">
+                <img id="imgCat" src="images/cat.jpeg" data-name="cat" class="pet img-responsive img-thumbnail" />
+            </div>
+ 
+            <div class="col-sm-4">
+                <img id="imgRabbit" src="images/rabbit.jpeg" data-name="rabbit"
+                    class="pet img-responsive img-thumbnail" />
+            </div>
+ 
+        </div> <!-- end of row -->
+ 
+    </div> <!-- end of container -->
+ 
+ 
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery.toast.js"></script>
+ 
+    <script>
+ 
+        function showToast(message, icon) {
+            //避免使用者在視窗還沒不見前 又點一次 =>畫面上視窗會顯示兩個
+            $(".jq-toast-wrap>div").hide();
+ 
+            $.toast({
+                text: message, // Text that is to be shown in the toast
+                heading: '提示訊息', // Optional heading to be shown on the toast
+                icon: icon, // Type of toast icon //success //error //warning //info
+                showHideTransition: 'fade', // fade, slide or plain
+                allowToastClose: true, // Boolean value true or false
+                hideAfter: 2000, // false to make it sticky or number representing the miliseconds as time after which toast needs to be hidden
+                stack: 5, // false if there should be only one toast at a time or a number representing the maximum number of toasts to be shown at a time
+                position: 'mid-center', // bottom-left or bottom-right or bottom-center or top-left or top-right or top-center or mid-center or an object representing the left, right, top, bottom values
+                textAlign: 'left',  // Text alignment i.e. left, right or center
+                loader: true,  // Whether to show loader or not. True by default
+                loaderBg: '#9ec600',  // Background color of the toast loader
+                beforeShow: function () { }, // will be triggered before the toast is shown
+                afterShown: function () { }, // will be triggered after the toat has been shown
+                beforeHide: function () { }, // will be triggered before the toast gets hidden
+                afterHidden: function () { }  // will be triggered after the toast has been hidden
+            });
+ 
+        }
+ 
+ 
+        $(function () {
+            //滑鼠移出移入效果
+            $(".pet").mouseenter(function () {
+                $(this).removeClass("img-thumbnail");
+            })
+            $(".pet").mouseleave(function () {
+                $(this).addClass("img-thumbnail");
+            })
+ 
+            //點擊事件
+            $(".pet").click(function () {
+                //方法一 抓取id屬性
+                // var x = $(this).prop("id");
+                // x == "imgCat" ? showToast("恭喜你答對了", "success") : showToast("請再試一次", "warning");
+ 
+                //方法二 使用prop 抓取自定義data-name屬性
+                // var x = $(this).prop("data-name");
+                // x == "cat" ? showToast("恭喜你答對了", "success") : showToast("請再試一次", "warning");
+ 
+                //方法三 抓取自定義data-name屬性
+                //var x = $(this).data("name");
+                //x == "cat" ? showToast("恭喜你答對了", "success") : showToast("請再試一次", "warning");
+ 
+                //方法四 使用not()方法 抓取data屬性=> 過濾掉=cat的元素  => 返回長度 => 大於0 =>代表當前元素非cat
+                //$(this).not('[data-name="cat"]').length ? showToast("請再試一次", "warning") : showToast("恭喜你答對了", "success");
+ 
+                //方法五 使用eq()方法 抓取data-name屬性=> 替換data-name內容 =>$(selector).eq(index)
+                // let nameList = ["No1", "No2", "No3"];
+                // $(".pet").eq(0).data("name", nameList[0]);
+                // $(".pet").eq(1).data("name", nameList[1]);  //取得第二個(class="pet")的元素 =>將cat替換成No2
+                // $(".pet").eq(2).data("name", nameList[2]);
+                // if ($(this).data("name") == "No2")
+                //{
+                //     showToast("恭喜你答對了", "success");
+                // } else
+                //  {
+                //  showToast("請再試一次", "warning");
+                // }
+ 
+                //方法六  使用for迴圈 + eq()方法 抓取data-name屬性=> 替換data-name內容
+                // for (let i = 0; i < $(".pet").length; i++) {
+ 
+                //     $(".pet").eq(i).data("name", nameList[i]);
+                // };
+                // if ($(this).data("name") == "No2")
+                // {
+                //     showToast("恭喜你答對了", "success");
+                // } else
+                // {
+                //     showToast("請再試一次", "warning");
+                // }
+ 
+                //方法七 使用each()方法 抓取圖片src屬性=> 隨機替換圖片
+                //$(selector).each(function(index, element) { 在這裡執行對每個元素的操作 })
+                //index 是每個元素的索引位置
+                //當點擊後，將每個圖片替換成不同的圖片
+                //Math.floor() 是 JavaScript 中的一個內建方法，用來將數字向下取整
+                //Math.random() * imgList.length
+                //  Math.random() 會回傳一個介於 0（包含）到 1（不包含）之間的亂數  =>0~0.9
+                //  imgList.length=>3
+                //  =>0*0=0    0.9*1=0.9    0.9*2=1.8    0.9*3=2.7  
+                //  =>最大值2.7向下取整數 =>2   不能用ROUND()就是因為會超出索引值 [0][1][2]
+                $(".pet").each(function (index) {
+                    let imgList = ["images/dog.jpeg", "images/cat.jpeg", "images/rabbit.jpeg"];
+                    $(this).prop("src", imgList[Math.floor(Math.random() * imgList.length)]);
+                });
+ 
+            });
+ 
+        })  // end of init.
+ 
+    </script>
  
 </body>
+ 
 </html>
+ 

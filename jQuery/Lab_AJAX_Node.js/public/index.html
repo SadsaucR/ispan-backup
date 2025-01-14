@@ -128,6 +128,16 @@
             $("#getButton").on("click", function() {
                 var s = $("#nameTextBox").val();
 
+                $.get("/hello/"+ s,function(e){
+                    $("#reportSpan").text(e);
+                })
+
+            //     $.get("/hello/" + s, function(e) {
+            //         $("#reportSpan").text(e);
+            //     })
+
+            // })
+
 
 
 
