@@ -36,6 +36,7 @@
             $("#btnOff").click(
                 function () {
                     //這裡要分開寫，不能寫在一起
+                    //$("#btnTry").off() 可停用所有btntry的事件
                     $("#btnTry").off("click");
                     $("#btnTry").off("mouseleave");
                     $("#panda").prop("src", "panda2.jpg");

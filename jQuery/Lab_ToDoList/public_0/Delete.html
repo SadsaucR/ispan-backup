@@ -3,41 +3,67 @@
 
 <div class="container">
 
-
     <h1>待辦事項清單 - 刪除</h1>
-
     <hr />
+
     <div>
+        <!-- 顯示待辦事項的詳細資料 -->
         <dl class="row">
-            <dt class = "col-sm-2">
-                項目名稱
-            </dt>
-            <dd class = "col-sm-10" id="Name">
-                Job A
-            </dd>
-            <dt class = "col-sm-2">
-                是否已完工
-            </dt>
-            <dd class = "col-sm-10">
-                <input class="check-box" disabled="disabled" id="isComplete"
-                type="checkbox" checked="checked" />
+            <dt class="col-sm-2">項目名稱</dt>
+            <dd class="col-sm-10" id="Name">Job A</dd>
+
+            <dt class="col-sm-2">是否已完工</dt>
+            <dd class="col-sm-10">
+                <input class="check-box" disabled="disabled" id="isComplete" type="checkbox" checked="checked" />
             </dd>
         </dl>
-        
-        <hr>
+
+        <hr />
         <h3>確定要刪除這筆資料嗎?</h3>
 
+        <!-- *TodoItemId 為隱藏狀態 -->
         <form action="/Todo/Delete" method="post">
-            <input type="hidden" id="TodoItemId" name="TodoItemId" 
-                value="1" 
-            />
+            <input type="hidden" id="TodoItemId" name="TodoItemId" value="1" />
             <input id="deleteButton" type="button" value="確定" class="btn btn-outline-danger" /> |
             <a href="/index.html" class="btn btn-outline-info">取消</a>
+        </form>
     </div>
 
-
     <script>
+        // 從 sessionStorage(瀏覽器內存) 取得待辦事項的 ID，若無則預設為 1
+        var todoTableId = sessionStorage.getItem("todoTableId") || 1;
 
+        // 根據 ID 構建 API URL
+        var url = "/todo/item/" + todoTableId;
+
+        // 使用 GET 請求取得待辦事項的詳細資料
+        $.get(url, function (e) {
+            // 解析伺服器回傳的資料
+            var item = e;
+
+            // 更新頁面上的項目名稱
+            $("#Name").text(item.title);
+
+            // 更新是否已完工的狀態
+            $("#isComplete").prop("checked", item.isComplete ? "checked" : "");
+        });
+
+        // 綁定刪除按鈕的點擊事件
+        $("#deleteButton").on("click", async function () {
+            // 再次從 sessionStorage 取得待辦事項的 ID
+            var todoTableId = sessionStorage.getItem("todoTableId") || 1;
+
+            // 根據 ID 構建刪除 API 的 URL
+            var delUrl = "/todo/delete/" + todoTableId;
+
+            // 發送 DELETE 請求到伺服器
+            var result = await $.ajax({
+                type: "delete",
+                url: delUrl
+            });
+
+            // 刪除成功後跳轉到主頁面
+            window.location = "/index.html";
+        });
     </script>
-    
 </div>

@@ -2,9 +2,9 @@ var express = require("express");
 var cors = require("cors");
 var app = express();
 
-app.use( express.static("public")  );
-app.use( express.json() );
-app.use( express.urlencoded( {extended: true}) );
+app.use(express.static("public_finished"));
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 app.use(cors());
 
 var fs = require("fs");
@@ -18,8 +18,8 @@ console.log("「Ctrl + C」可結束伺服器程式.");
 app.get("/todo/list", function (req, res) {
 	var data = fs.readFileSync(dataFileName);
 	var todoList = JSON.parse(data);
-    res.set('Content-type', 'application/json');
-	res.send( JSON.stringify(todoList) );
+	res.set('Content-type', 'application/json');
+	res.send(JSON.stringify(todoList));
 })
 
 app.get("/todo/item/:id", function (req, res) {
@@ -33,20 +33,20 @@ app.get("/todo/item/:id", function (req, res) {
 			break;
 		}
 	}
-    if ( targetIndex < 0 ) {
-        res.send("not found");
-        return;
-    }
+	if (targetIndex < 0) {
+		res.send("not found");
+		return;
+	}
 
 	res.set('Content-Type', 'application/json');
-    res.send( JSON.stringify(todoList[targetIndex]) );
+	res.send(JSON.stringify(todoList[targetIndex]));
 })
 
 app.post("/todo/create", function (req, res) {
 	var data = fs.readFileSync(dataFileName);
 	var todoList = JSON.parse(data);
 	var item = {
-		"todoTableId": new Date().getTime(),
+		"todoTableId": todoList.length + 1,
 		"title": req.body.title,
 		"isComplete": req.body.isComplete
 	};
@@ -65,8 +65,8 @@ app.put("/todo/item", function (req, res) {
 			break;
 		}
 	}
-	fs.writeFileSync("./data.json", JSON.stringify(todoList, null, "\t"));	
-	res.send("row updated."); 
+	fs.writeFileSync("./data.json", JSON.stringify(todoList, null, "\t"));
+	res.send("row updated.");
 })
 
 app.delete("/todo/delete/:id", function (req, res) {
@@ -80,12 +80,12 @@ app.delete("/todo/delete/:id", function (req, res) {
 			break;
 		}
 	}
-    if ( deleteIndex < 0 ) {
-        res.send("not found");
-        return;
-    }
+	if (deleteIndex < 0) {
+		res.send("not found");
+		return;
+	}
 
-    todoList.splice(deleteIndex, 1);
-    fs.writeFileSync("./data.json", JSON.stringify(todoList, null, "\t"));	
-    res.send("row deleted.");
+	todoList.splice(deleteIndex, 1);
+	fs.writeFileSync("./data.json", JSON.stringify(todoList, null, "\t"));
+	res.send("row deleted.");
 })

@@ -59,7 +59,37 @@
         {todoTableId: 3, title: "Job ZZZ", isComplete: 1}
     ];
 
+    $.get("/todo/list", function (e) {
+        //todoTable = JSON.parse(e);
+        todoTable = e;
+        $("#jobList tbody").empty();
+        $.each(todoTable, function (index, item) {
+            var trHtml = `
+                <tr>
+                    <td>
+                        ${item.title}
+                    </td>
+                    <td>
+                        <input class="check-box" disabled="disabled"
+                            type="checkbox" ${ (item.isComplete) ? "checked" : "" } />
+                    </td>
+                    <td>
+                        <span class="float-right">
+                            <a href="edit.html" onclick="doEdit(${item.todoTableId})" class="btn btn-outline-primary btn-sm">編輯</a> |
+                            <a href="delete.html" onclick="doEdit(${item.todoTableId})" class="btn btn-outline-danger btn-sm">刪除</a>
+                        </span>
+                    </td>
+                </tr>            
+            `;
+            $("#jobList tbody").append(trHtml);
+        })
 
+    })
+
+
+    function doEdit(e) {
+        sessionStorage.setItem("todoTableId", e);
+    }
 
 </script>    
 </body>
