@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Math</title>
+    <style>
+        .large-label {
+            font-size: 2em;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="large-label">計算 1 + 1  </div>
+    <button class="large-label">開始計算</button>
+    <div id="progress-container" style="display: none;">
+        <div id="progress-bar" style="width: 0%; height: 30px; background-color: green;"></div>
+        <div id="progress-number">0%</div>
+    </div>
+    <div id="result" class="large-label" style="display: none;">Hello World!!!</div> 
+
+    <script>
+        document.querySelector('button').addEventListener('click', function() {
+            var progressContainer = document.getElementById('progress-container');
+            var progressBar = document.getElementById('progress-bar');
+            var progressNumber = document.getElementById('progress-number');
+            var result = document.getElementById('result');
+            
+            progressContainer.style.display = 'block';
+            result.style.display = 'none';
+            
+            var progress = 0;
+            var interval = setInterval(function() {
+                progress += 1;
+                progressBar.style.width = progress + '%';
+                progressNumber.textContent = "計算中:"+progress + '%';
+                
+                if (progress >= 100) {
+                    clearInterval(interval);
+                    progressContainer.style.display = 'none';
+                    result.style.display = 'block';
+                }
+            }, 50);
+        });
+    </script>
+</body>
+</html>

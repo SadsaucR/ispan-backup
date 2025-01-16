@@ -35,13 +35,18 @@
     <script>
         //從sessionStroage(瀏覽器內存)取得資料
         var todoTableId = sessionStorage.getItem("todoTableId");
-        //$.get() 向server發送get請求，取得資料     
-        $.get(url, function (data) {
-            var item=JSON.parse(data); 
-            var item=e;
-            $("#Name").prop("value",item.title); 
-            $("#IsComplete").prop("checked",(this.isComplete)?"checked":"");
-        })
+        //$.get() 向server發送get請求，取得資料
+        $.get(url,function(data){
+            var item=JSON.parse(data);
+            var item=data;
+            $("#Name")
+        })     
+        // $.get(url, function (data) {
+        //     var item=JSON.parse(data); 
+        //     var item=e;
+        //     $("#Name").prop("value",item.title); 
+        //     $("#IsComplete").prop("checked",(this.isComplete)?"checked":"");
+        // })
         
         $("#okButton").on("click", async function () {  
             var dataToServer = {
