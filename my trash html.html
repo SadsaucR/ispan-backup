@@ -32,7 +32,7 @@
             
             var progress = 0;
             var interval = setInterval(function() {
-                progress += 1;
+                progress += Math.floor(Math.random() * 3) + 1;
                 progressBar.style.width = progress + '%';
                 progressNumber.textContent = "計算中:"+progress + '%';
                 
