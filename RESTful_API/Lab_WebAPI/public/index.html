@@ -180,6 +180,7 @@ $(function () {
             // var iIndex = $(this).parent().parent().index();
             var iIndex = $(this).closest("li").index();
             currentIndex = iIndex;
+            // alert(currentIndex);
             $("#titleTextBox").val(newsList[iIndex].title);
             $("#ymdTextBox").val(newsList[iIndex].ymd);
             $("#newsModal").modal( { backdrop: "static" } );
@@ -240,7 +241,7 @@ $(function () {
             })
             $("#newsModal").modal("hide");
 
-        }
+    }
         
         
     })
