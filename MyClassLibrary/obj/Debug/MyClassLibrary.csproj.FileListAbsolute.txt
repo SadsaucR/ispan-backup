@@ -1,0 +1,6 @@
+C:\Users\User\Desktop\ispan-backup\MyClassLibrary\bin\Debug\MyClassLibrary.dll
+C:\Users\User\Desktop\ispan-backup\MyClassLibrary\bin\Debug\MyClassLibrary.pdb
+C:\Users\User\Desktop\ispan-backup\MyClassLibrary\obj\Debug\MyClassLibrary.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\ispan-backup\MyClassLibrary\obj\Debug\MyClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\ispan-backup\MyClassLibrary\obj\Debug\MyClassLibrary.dll
+C:\Users\User\Desktop\ispan-backup\MyClassLibrary\obj\Debug\MyClassLibrary.pdb

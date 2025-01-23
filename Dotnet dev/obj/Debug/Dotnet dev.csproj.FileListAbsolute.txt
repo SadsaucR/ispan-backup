@@ -1,0 +1,7 @@
+C:\Users\User\Desktop\ispan-backup\Dotnet dev\bin\Debug\Dotnet dev.exe.config
+C:\Users\User\Desktop\ispan-backup\Dotnet dev\bin\Debug\Dotnet dev.exe
+C:\Users\User\Desktop\ispan-backup\Dotnet dev\bin\Debug\Dotnet dev.pdb
+C:\Users\User\Desktop\ispan-backup\Dotnet dev\obj\Debug\Dotnet dev.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\ispan-backup\Dotnet dev\obj\Debug\Dotnet dev.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\ispan-backup\Dotnet dev\obj\Debug\Dotnet dev.exe
+C:\Users\User\Desktop\ispan-backup\Dotnet dev\obj\Debug\Dotnet dev.pdb

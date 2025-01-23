@@ -1,0 +1,13 @@
+C:\Users\User\Desktop\ispan-backup\MyProject\bin\Debug\MyProject.exe.config
+C:\Users\User\Desktop\ispan-backup\MyProject\bin\Debug\MyProject.exe
+C:\Users\User\Desktop\ispan-backup\MyProject\bin\Debug\MyProject.pdb
+C:\Users\User\Desktop\ispan-backup\MyProject\bin\Debug\MyClassLibrary.dll
+C:\Users\User\Desktop\ispan-backup\MyProject\bin\Debug\MyClassLibrary.pdb
+C:\Users\User\Desktop\ispan-backup\MyProject\obj\Debug\MyProject.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\ispan-backup\MyProject\obj\Debug\MyProject.Form1.resources
+C:\Users\User\Desktop\ispan-backup\MyProject\obj\Debug\MyProject.Properties.Resources.resources
+C:\Users\User\Desktop\ispan-backup\MyProject\obj\Debug\MyProject.csproj.GenerateResource.cache
+C:\Users\User\Desktop\ispan-backup\MyProject\obj\Debug\MyProject.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\ispan-backup\MyProject\obj\Debug\MyProject.csproj.Up2Date
+C:\Users\User\Desktop\ispan-backup\MyProject\obj\Debug\MyProject.exe
+C:\Users\User\Desktop\ispan-backup\MyProject\obj\Debug\MyProject.pdb

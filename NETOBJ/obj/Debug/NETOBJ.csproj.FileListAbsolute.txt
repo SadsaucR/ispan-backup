@@ -1,0 +1,13 @@
+C:\Users\User\Desktop\ispan-backup\NETOBJ\bin\Debug\NETOBJ.exe.config
+C:\Users\User\Desktop\ispan-backup\NETOBJ\bin\Debug\NETOBJ.exe
+C:\Users\User\Desktop\ispan-backup\NETOBJ\bin\Debug\NETOBJ.pdb
+C:\Users\User\Desktop\ispan-backup\NETOBJ\obj\Debug\NETOBJ.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\ispan-backup\NETOBJ\obj\Debug\NETOBJ.Form1.resources
+C:\Users\User\Desktop\ispan-backup\NETOBJ\obj\Debug\NETOBJ.Properties.Resources.resources
+C:\Users\User\Desktop\ispan-backup\NETOBJ\obj\Debug\NETOBJ.csproj.GenerateResource.cache
+C:\Users\User\Desktop\ispan-backup\NETOBJ\obj\Debug\NETOBJ.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\ispan-backup\NETOBJ\obj\Debug\NETOBJ.exe
+C:\Users\User\Desktop\ispan-backup\NETOBJ\obj\Debug\NETOBJ.pdb
+C:\Users\User\Desktop\ispan-backup\NETOBJ\obj\Debug\NETOBJ.Form2_openfile.resources
+C:\Users\User\Desktop\ispan-backup\NETOBJ\obj\Debug\NETOBJ.Cockulator.resources
+C:\Users\User\Desktop\ispan-backup\NETOBJ\obj\Debug\NETOBJ.Form3_Rename.resources
