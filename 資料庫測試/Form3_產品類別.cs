@@ -36,13 +36,17 @@ namespace 資料庫測試
             string sqlcmd = "select ProductCategoryKey,EnglishProductCategoryName from DimProductCategory";
             Dictionary<string, string> dt = db.GetDictionary(sqlcmd);
 
-            comboBox1.Items.Clear();
-            foreach (var item in dt)
-            {
-                comboBox1.Items.Add(new { Text = item.Value, Value = item.Key });
-            }
-            comboBox1.DisplayMember = "Text";
-            comboBox1.ValueMember = "Value";
+            comboBox1.DataSource = new BindingSource(dt, null);
+            comboBox1.DisplayMember = "Value";
+            comboBox1.ValueMember = "Key";
+
+            comboBox1.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            //
+            string key = ((KeyValuePair<string, string>)comboBox1.SelectedItem).Key;
         }
     }
 }
