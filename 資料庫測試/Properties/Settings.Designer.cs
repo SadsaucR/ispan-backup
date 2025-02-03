@@ -34,14 +34,16 @@ namespace 資料庫測試.Properties {
             }
         }
         
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=localhost\\SQLEXPRESS;Initial Catalog=Northwind;Integrated Security=Tr" +
-            "ue;Encrypt=True;TrustServerCertificate=True")]
-        public string NorthwindConnectionString {
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=localhost\\SQLEXPRESS;Initial Catalog=AdventureWorksDW2022;Integrated " +
+            "Security=True;Encrypt=True;TrustServerCertificate=True")]
+        public string DW {
             get {
-                return ((string)(this["NorthwindConnectionString"]));
+                return ((string)(this["DW"]));
+            }
+            set {
+                this["DW"] = value;
             }
         }
     }

@@ -1,0 +1,11 @@
+C:\Users\User\Desktop\ispan-backup\資料庫測試\obj\Debug\資料庫測試.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\ispan-backup\資料庫測試\obj\Debug\資料庫測試.Properties.Resources.resources
+C:\Users\User\Desktop\ispan-backup\資料庫測試\obj\Debug\資料庫測試.csproj.GenerateResource.cache
+C:\Users\User\Desktop\ispan-backup\資料庫測試\obj\Debug\資料庫測試.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\ispan-backup\資料庫測試\bin\Debug\資料庫測試.exe.config
+C:\Users\User\Desktop\ispan-backup\資料庫測試\bin\Debug\資料庫測試.exe
+C:\Users\User\Desktop\ispan-backup\資料庫測試\bin\Debug\資料庫測試.pdb
+C:\Users\User\Desktop\ispan-backup\資料庫測試\obj\Debug\資料庫測試.exe
+C:\Users\User\Desktop\ispan-backup\資料庫測試\obj\Debug\資料庫測試.pdb
+C:\Users\User\Desktop\ispan-backup\資料庫測試\obj\Debug\資料庫測試.Form1_過年前練習查詢.resources
+C:\Users\User\Desktop\ispan-backup\資料庫測試\obj\Debug\資料庫測試.Form2_客戶篩選與排序.resources

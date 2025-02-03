@@ -47,21 +47,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DataClasses1.designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>DataClasses1.dbml</DependentUpon>
-    </Compile>
-    <Compile Include="Form1.cs">
+    <Compile Include="Form1_過年前練習查詢.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Form1_過年前練習查詢.Designer.cs">
+      <DependentUpon>Form1_過年前練習查詢.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form2_客戶篩選與排序.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2_客戶篩選與排序.Designer.cs">
+      <DependentUpon>Form2_客戶篩選與排序.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyDB.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Form1_過年前練習查詢.resx">
+      <DependentUpon>Form1_過年前練習查詢.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2_客戶篩選與排序.resx">
+      <DependentUpon>Form2_客戶篩選與排序.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -72,14 +77,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <None Include="DataClasses1.dbml">
-      <Generator>MSLinqToSQLGenerator</Generator>
-      <LastGenOutput>DataClasses1.designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="DataClasses1.dbml.layout">
-      <DependentUpon>DataClasses1.dbml</DependentUpon>
-    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

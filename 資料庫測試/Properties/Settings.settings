@@ -9,5 +9,8 @@
 &lt;/SerializableConnectionString&gt;</DesignTimeValue>
       <Value Profile="(Default)">Data Source=localhost\SQLEXPRESS;Initial Catalog=Northwind;Integrated Security=True;Encrypt=True;TrustServerCertificate=True</Value>
     </Setting>
+    <Setting Name="DW" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Data Source=localhost\SQLEXPRESS;Initial Catalog=AdventureWorksDW2022;Integrated Security=True;Encrypt=True;TrustServerCertificate=True</Value>
+    </Setting>
   </Settings>
 </SettingsFile>

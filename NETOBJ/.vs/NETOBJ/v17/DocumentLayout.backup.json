@@ -3,24 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\ispan-backup\\NETOBJ\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B012B9E3-7610-4530-9AD9-34F50AF13C41}|NETOBJ.csproj|c:\\users\\user\\desktop\\ispan-backup\\netobj\\form3_rename.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B012B9E3-7610-4530-9AD9-34F50AF13C41}|NETOBJ.csproj|solutionrelative:form3_rename.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{B012B9E3-7610-4530-9AD9-34F50AF13C41}|NETOBJ.csproj|c:\\users\\user\\desktop\\ispan-backup\\netobj\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B012B9E3-7610-4530-9AD9-34F50AF13C41}|NETOBJ.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B012B9E3-7610-4530-9AD9-34F50AF13C41}|NETOBJ.csproj|c:\\users\\user\\desktop\\ispan-backup\\netobj\\form3_rename.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B012B9E3-7610-4530-9AD9-34F50AF13C41}|NETOBJ.csproj|solutionrelative:form3_rename.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B012B9E3-7610-4530-9AD9-34F50AF13C41}|NETOBJ.csproj|c:\\users\\user\\desktop\\ispan-backup\\netobj\\cockulator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B012B9E3-7610-4530-9AD9-34F50AF13C41}|NETOBJ.csproj|solutionrelative:cockulator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B012B9E3-7610-4530-9AD9-34F50AF13C41}|NETOBJ.csproj|c:\\users\\user\\desktop\\ispan-backup\\netobj\\form3_rename.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B012B9E3-7610-4530-9AD9-34F50AF13C41}|NETOBJ.csproj|solutionrelative:form3_rename.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B012B9E3-7610-4530-9AD9-34F50AF13C41}|NETOBJ.csproj|c:\\users\\user\\desktop\\ispan-backup\\netobj\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B012B9E3-7610-4530-9AD9-34F50AF13C41}|NETOBJ.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 202,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,16 +42,16 @@
               "Title": "Form3_Rename.Designer.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\ispan-backup\\NETOBJ\\Form3_Rename.Designer.cs",
               "RelativeDocumentMoniker": "Form3_Rename.Designer.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\ispan-backup\\NETOBJ\\Form3_Rename.Designer.cs*",
-              "RelativeToolTip": "Form3_Rename.Designer.cs*",
-              "ViewState": "AgIAAK0AAAAAAAAAAAAiwBUAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\User\\Desktop\\ispan-backup\\NETOBJ\\Form3_Rename.Designer.cs",
+              "RelativeToolTip": "Form3_Rename.Designer.cs",
+              "ViewState": "AgIAAKEAAAAAAAAAAAAiwLMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-23T03:48:44.274Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\ispan-backup\\NETOBJ\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -73,43 +61,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-23T03:23:44.035Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Form3_Rename.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ispan-backup\\NETOBJ\\Form3_Rename.cs",
-              "RelativeDocumentMoniker": "Form3_Rename.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\ispan-backup\\NETOBJ\\Form3_Rename.cs*",
-              "RelativeToolTip": "Form3_Rename.cs*",
-              "ViewState": "AgIAAFkAAAAAAAAAAAAgwGQAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-23T03:21:24.003Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form3_Rename.cs [\u8A2D\u8A08]",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ispan-backup\\NETOBJ\\Form3_Rename.cs",
-              "RelativeDocumentMoniker": "Form3_Rename.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\ispan-backup\\NETOBJ\\Form3_Rename.cs [\u8A2D\u8A08]*",
-              "RelativeToolTip": "Form3_Rename.cs [\u8A2D\u8A08]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-23T03:16:46.722Z",
-              "EditorCaption": " [\u8A2D\u8A08]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Cockulator.cs [\u8A2D\u8A08]",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ispan-backup\\NETOBJ\\Cockulator.cs",
-              "RelativeDocumentMoniker": "Cockulator.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\ispan-backup\\NETOBJ\\Cockulator.cs [\u8A2D\u8A08]",
-              "RelativeToolTip": "Cockulator.cs [\u8A2D\u8A08]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-23T05:30:18.552Z",
-              "EditorCaption": " [\u8A2D\u8A08]"
             }
           ]
         }

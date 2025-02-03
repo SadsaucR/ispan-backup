@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\ispan-backup\\\u8CC7\u6599\u5EAB\u6E2C\u8A66\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8AAD154D-2109-45A6-B5E3-A94DE4CD7A41}|\u8CC7\u6599\u5EAB\u6E2C\u8A66.csproj|c:\\users\\user\\desktop\\ispan-backup\\\u8CC7\u6599\u5EAB\u6E2C\u8A66\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8AAD154D-2109-45A6-B5E3-A94DE4CD7A41}|\u8CC7\u6599\u5EAB\u6E2C\u8A66.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{8AAD154D-2109-45A6-B5E3-A94DE4CD7A41}|\u8CC7\u6599\u5EAB\u6E2C\u8A66.csproj|C:\\Users\\User\\Desktop\\ispan-backup\\\u8CC7\u6599\u5EAB\u6E2C\u8A66\\form2_\u5BA2\u6236\u7BE9\u9078\u8207\u6392\u5E8F.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AAD154D-2109-45A6-B5E3-A94DE4CD7A41}|\u8CC7\u6599\u5EAB\u6E2C\u8A66.csproj|solutionrelative:form2_\u5BA2\u6236\u7BE9\u9078\u8207\u6392\u5E8F.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AAD154D-2109-45A6-B5E3-A94DE4CD7A41}|\u8CC7\u6599\u5EAB\u6E2C\u8A66.csproj|C:\\Users\\User\\Desktop\\ispan-backup\\\u8CC7\u6599\u5EAB\u6E2C\u8A66\\form2_\u5BA2\u6236\u7BE9\u9078\u8207\u6392\u5E8F.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8AAD154D-2109-45A6-B5E3-A94DE4CD7A41}|\u8CC7\u6599\u5EAB\u6E2C\u8A66.csproj|solutionrelative:form2_\u5BA2\u6236\u7BE9\u9078\u8207\u6392\u5E8F.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AAD154D-2109-45A6-B5E3-A94DE4CD7A41}|\u8CC7\u6599\u5EAB\u6E2C\u8A66.csproj|c:\\users\\user\\desktop\\ispan-backup\\\u8CC7\u6599\u5EAB\u6E2C\u8A66\\mydb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AAD154D-2109-45A6-B5E3-A94DE4CD7A41}|\u8CC7\u6599\u5EAB\u6E2C\u8A66.csproj|solutionrelative:mydb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 202,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,14 +42,40 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs [\u8A2D\u8A08]",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ispan-backup\\\u8CC7\u6599\u5EAB\u6E2C\u8A66\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\ispan-backup\\\u8CC7\u6599\u5EAB\u6E2C\u8A66\\Form1.cs [\u8A2D\u8A08]",
-              "RelativeToolTip": "Form1.cs [\u8A2D\u8A08]",
+              "DocumentIndex": 2,
+              "Title": "MyDB.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ispan-backup\\\u8CC7\u6599\u5EAB\u6E2C\u8A66\\MyDB.cs",
+              "RelativeDocumentMoniker": "MyDB.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\ispan-backup\\\u8CC7\u6599\u5EAB\u6E2C\u8A66\\MyDB.cs",
+              "RelativeToolTip": "MyDB.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAIAxwA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-23T08:11:37.246Z",
+              "WhenOpened": "2025-02-03T05:49:13.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form2_\u5BA2\u6236\u7BE9\u9078\u8207\u6392\u5E8F.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ispan-backup\\\u8CC7\u6599\u5EAB\u6E2C\u8A66\\Form2_\u5BA2\u6236\u7BE9\u9078\u8207\u6392\u5E8F.cs",
+              "RelativeDocumentMoniker": "Form2_\u5BA2\u6236\u7BE9\u9078\u8207\u6392\u5E8F.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\ispan-backup\\\u8CC7\u6599\u5EAB\u6E2C\u8A66\\Form2_\u5BA2\u6236\u7BE9\u9078\u8207\u6392\u5E8F.cs*",
+              "RelativeToolTip": "Form2_\u5BA2\u6236\u7BE9\u9078\u8207\u6392\u5E8F.cs*",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAMwFwAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T03:39:33.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form2_\u5BA2\u6236\u7BE9\u9078\u8207\u6392\u5E8F.cs [\u8A2D\u8A08]",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ispan-backup\\\u8CC7\u6599\u5EAB\u6E2C\u8A66\\Form2_\u5BA2\u6236\u7BE9\u9078\u8207\u6392\u5E8F.cs",
+              "RelativeDocumentMoniker": "Form2_\u5BA2\u6236\u7BE9\u9078\u8207\u6392\u5E8F.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\ispan-backup\\\u8CC7\u6599\u5EAB\u6E2C\u8A66\\Form2_\u5BA2\u6236\u7BE9\u9078\u8207\u6392\u5E8F.cs [\u8A2D\u8A08]*",
+              "RelativeToolTip": "Form2_\u5BA2\u6236\u7BE9\u9078\u8207\u6392\u5E8F.cs [\u8A2D\u8A08]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T03:17:34.368Z",
               "EditorCaption": " [\u8A2D\u8A08]"
             }
           ]
