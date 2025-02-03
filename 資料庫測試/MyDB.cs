@@ -77,6 +77,28 @@ namespace 資料庫測試
             return dt;
         }
 
+        public Dictionary<string, string> GetDictionary(string code)
+        {
+            Dictionary<string,string> dic = new Dictionary<string, string>();
+
+            SqlConnection sqlc = new SqlConnection(connstring);
+            SqlDataAdapter sqld = new SqlDataAdapter();
+
+            SqlCommand cmd = new SqlCommand();
+            cmd.Connection = sqlc;
+            cmd.CommandText = code;
+            sqld.SelectCommand = cmd;
+            DataTable dt = new DataTable();
+            sqld.Fill(dt);
+
+            foreach(DataRow item in dt.Rows)
+            {
+                dic.Add(item.ItemArray[0].ToString(), item.ItemArray[1].ToString());
+            }
+
+            return dic;
+        }
+
 
     }
 }

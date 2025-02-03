@@ -16,7 +16,7 @@ namespace 資料庫測試
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form2_客戶篩選與排序());
+            Application.Run(new Form3_產品類別());
         }
     }
 }

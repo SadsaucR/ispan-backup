@@ -59,6 +59,12 @@
     <Compile Include="Form2_客戶篩選與排序.Designer.cs">
       <DependentUpon>Form2_客戶篩選與排序.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form3_產品類別.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3_產品類別.Designer.cs">
+      <DependentUpon>Form3_產品類別.cs</DependentUpon>
+    </Compile>
     <Compile Include="MyDB.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -67,6 +73,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form2_客戶篩選與排序.resx">
       <DependentUpon>Form2_客戶篩選與排序.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3_產品類別.resx">
+      <DependentUpon>Form3_產品類別.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
