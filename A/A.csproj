@@ -1,13 +1,13 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8AAD154D-2109-45A6-B5E3-A94DE4CD7A41}</ProjectGuid>
+    <ProjectGuid>{ACD5E1C0-03D1-4481-BCF1-C9FCE9726B85}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>資料庫測試</RootNamespace>
-    <AssemblyName>資料庫測試</AssemblyName>
+    <RootNamespace>A</RootNamespace>
+    <AssemblyName>A</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -35,7 +35,6 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Data.Linq" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -47,44 +46,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1_過年前練習查詢.cs">
+    <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1_過年前練習查詢.Designer.cs">
-      <DependentUpon>Form1_過年前練習查詢.cs</DependentUpon>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form2_客戶篩選與排序.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form2_客戶篩選與排序.Designer.cs">
-      <DependentUpon>Form2_客戶篩選與排序.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Form3_產品類別.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form3_產品類別.Designer.cs">
-      <DependentUpon>Form3_產品類別.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Form4_查詢1997年的檢視表.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form4_查詢1997年的檢視表.Designer.cs">
-      <DependentUpon>Form4_查詢1997年的檢視表.cs</DependentUpon>
-    </Compile>
-    <Compile Include="MyDB.cs" />
+    <Compile Include="mydb.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1_過年前練習查詢.resx">
-      <DependentUpon>Form1_過年前練習查詢.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form2_客戶篩選與排序.resx">
-      <DependentUpon>Form2_客戶篩選與排序.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form3_產品類別.resx">
-      <DependentUpon>Form3_產品類別.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form4_查詢1997年的檢視表.resx">
-      <DependentUpon>Form4_查詢1997年的檢視表.cs</DependentUpon>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -107,9 +79,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

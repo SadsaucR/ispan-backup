@@ -10,3 +10,4 @@ C:\Users\User\Desktop\ispan-backup\資料庫測試\obj\Debug\資料庫測試.pdb
 C:\Users\User\Desktop\ispan-backup\資料庫測試\obj\Debug\資料庫測試.Form1_過年前練習查詢.resources
 C:\Users\User\Desktop\ispan-backup\資料庫測試\obj\Debug\資料庫測試.Form2_客戶篩選與排序.resources
 C:\Users\User\Desktop\ispan-backup\資料庫測試\obj\Debug\資料庫測試.Form3_產品類別.resources
+C:\Users\User\Desktop\ispan-backup\資料庫測試\obj\Debug\資料庫測試.Form4_查詢1997年的檢視表.resources

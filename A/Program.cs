@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace 資料庫測試
+namespace A
 {
     internal static class Program
     {
@@ -16,7 +16,7 @@ namespace 資料庫測試
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form4_查詢1997年的檢視表());
+            Application.Run(new Form1());
         }
     }
 }
