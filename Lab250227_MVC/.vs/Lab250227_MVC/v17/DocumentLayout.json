@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\Lab250227_MVC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0FECC4F7-581B-4169-B6D0-55540D717BA1}|Lab250227_MVC.csproj|c:\\users\\user\\desktop\\lab250227_mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FECC4F7-581B-4169-B6D0-55540D717BA1}|Lab250227_MVC.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FECC4F7-581B-4169-B6D0-55540D717BA1}|Lab250227_MVC.csproj|c:\\users\\user\\desktop\\lab250227_mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0FECC4F7-581B-4169-B6D0-55540D717BA1}|Lab250227_MVC.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FECC4F7-581B-4169-B6D0-55540D717BA1}|Lab250227_MVC.csproj|c:\\users\\user\\desktop\\lab250227_mvc\\views\\testdata\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0FECC4F7-581B-4169-B6D0-55540D717BA1}|Lab250227_MVC.csproj|solutionrelative:views\\testdata\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FECC4F7-581B-4169-B6D0-55540D717BA1}|Lab250227_MVC.csproj|c:\\users\\user\\desktop\\lab250227_mvc\\controllers\\testdatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FECC4F7-581B-4169-B6D0-55540D717BA1}|Lab250227_MVC.csproj|solutionrelative:controllers\\testdatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FECC4F7-581B-4169-B6D0-55540D717BA1}|Lab250227_MVC.csproj|c:\\users\\user\\desktop\\lab250227_mvc\\views\\testdata\\datasession.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0FECC4F7-581B-4169-B6D0-55540D717BA1}|Lab250227_MVC.csproj|solutionrelative:views\\testdata\\datasession.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lab250227_MVC\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Lab250227_MVC\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACYAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T08:08:37.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lab250227_MVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Lab250227_MVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABMAAAAAAAAAAAAqwCUAAACEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-07T08:02:38.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DataSession.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lab250227_MVC\\Views\\TestData\\DataSession.cshtml",
+              "RelativeDocumentMoniker": "Views\\TestData\\DataSession.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Lab250227_MVC\\Views\\TestData\\DataSession.cshtml",
+              "RelativeToolTip": "Views\\TestData\\DataSession.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-07T08:01:58.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TestDataController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lab250227_MVC\\Controllers\\TestDataController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TestDataController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Lab250227_MVC\\Controllers\\TestDataController.cs",
+              "RelativeToolTip": "Controllers\\TestDataController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAA8wB8AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T05:54:53.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lab250227_MVC\\Views\\TestData\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\TestData\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Lab250227_MVC\\Views\\TestData\\Index.cshtml",
+              "RelativeToolTip": "Views\\TestData\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-07T05:55:07.122Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
