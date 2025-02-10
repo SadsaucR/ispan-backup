@@ -1,0 +1,27 @@
+﻿@{
+    // Layout = "_LayoutBlue";
+
+    //問題:系統提示ViewContext.RouteData.Values["action"]的值可能為null，如何解決。
+    // string xa = ViewContext.RouteData.Values["action"].ToString();
+
+    //解法1:如果view有值就轉字串，否則空字串。(阻擋null值出現)
+    //string xa = ViewContext.RouteData.Values["action"]?.ToString() ?? string.Empty; 
+
+    // 解法2:讓xa字串變數容許null值出現
+    string? xa = ViewContext.RouteData.Values["action"]!.ToString();
+
+    switch (xa)
+    {
+        case "Pokemon":
+            // Layout = "_LayoutYellow";
+            Layout = "Shared/Apple/_LayoutApple";
+            break;
+        case "Doraemon":
+            Layout = "_LayoutBlue";
+            break;
+
+        default:
+
+            break;
+    }
+}

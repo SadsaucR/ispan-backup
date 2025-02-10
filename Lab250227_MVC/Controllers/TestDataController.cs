@@ -4,6 +4,8 @@ namespace Lab250227_MVC.Controllers
 {
     public class TestDataController : Controller
     {
+        public const string SessionKeyName = "_Name";
+        public const string SessionKeyAge = "_Age";
         public IActionResult Index()
         {
             ViewBag.A1 = 7;
@@ -31,6 +33,11 @@ namespace Lab250227_MVC.Controllers
 
         public IActionResult DataSession()
         {
+            if (string.IsNullOrEmpty(HttpContext.Session.GetString(SessionKeyName)))
+            {
+                HttpContext.Session.SetString(SessionKeyName, "The Doctor");
+                HttpContext.Session.SetInt32(SessionKeyAge, 73);
+            }
             return View();
         }
     }

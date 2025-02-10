@@ -1,0 +1,11 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+     @{}內填入C#指令
+*@
+@{
+    // Layout = "_LayoutBlue";
+}
+<h1>我是多拉A夢</h1>
+<h2>@ViewContext.RouteData.Values["controller"] </h2>
+<h2>@ViewContext.RouteData.Values["action"] </h2>
+<a href="/Anime/Index">返回首頁</a>

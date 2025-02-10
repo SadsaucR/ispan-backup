@@ -1,0 +1,228 @@
+{
+  "Version": 1,
+  "Hash": "WWI6yfKka7jYWyDQGjObpJ0FbSNP0uvNszpRrclpZXY=",
+  "Source": "Lab250205_EmptyASP.NET_PJ",
+  "BasePath": "_content/Lab250205_EmptyASP.NET_PJ",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Lab250205_EmptyASP.NET_PJ\\wwwroot",
+      "Source": "Lab250205_EmptyASP.NET_PJ",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\Lab250205_EmptyASP.NET_PJ\\wwwroot\\",
+      "BasePath": "_content/Lab250205_EmptyASP.NET_PJ",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\Lab250205_EmptyASP.NET_PJ\\wwwroot\\css\\bootstrap.css",
+      "SourceId": "Lab250205_EmptyASP.NET_PJ",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\Lab250205_EmptyASP.NET_PJ\\wwwroot\\",
+      "BasePath": "_content/Lab250205_EmptyASP.NET_PJ",
+      "RelativePath": "css/bootstrap#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mpyigms19s",
+      "Integrity": "xlexqj9/k3uobVwGfciZcj/eDdooaNgcf4OFLtLUygM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap.css"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\Lab250205_EmptyASP.NET_PJ\\wwwroot\\css\\MyCat.css",
+      "SourceId": "Lab250205_EmptyASP.NET_PJ",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\Lab250205_EmptyASP.NET_PJ\\wwwroot\\",
+      "BasePath": "_content/Lab250205_EmptyASP.NET_PJ",
+      "RelativePath": "css/MyCat#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1kbrmotz1f",
+      "Integrity": "v8Zk+y306E3khcLeeLxgYdzv5zbhp61BNwpcU+klSRg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\MyCat.css"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "css/bootstrap.css",
+      "AssetFile": "C:\\Users\\User\\Desktop\\Lab250205_EmptyASP.NET_PJ\\wwwroot\\css\\bootstrap.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "204136"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xlexqj9/k3uobVwGfciZcj/eDdooaNgcf4OFLtLUygM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Feb 2025 03:36:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xlexqj9/k3uobVwGfciZcj/eDdooaNgcf4OFLtLUygM="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap.mpyigms19s.css",
+      "AssetFile": "C:\\Users\\User\\Desktop\\Lab250205_EmptyASP.NET_PJ\\wwwroot\\css\\bootstrap.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "204136"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xlexqj9/k3uobVwGfciZcj/eDdooaNgcf4OFLtLUygM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Feb 2025 03:36:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mpyigms19s"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xlexqj9/k3uobVwGfciZcj/eDdooaNgcf4OFLtLUygM="
+        }
+      ]
+    },
+    {
+      "Route": "css/MyCat.1kbrmotz1f.css",
+      "AssetFile": "C:\\Users\\User\\Desktop\\Lab250205_EmptyASP.NET_PJ\\wwwroot\\css\\MyCat.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "57"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"v8Zk+y306E3khcLeeLxgYdzv5zbhp61BNwpcU+klSRg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 07 Feb 2025 02:38:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1kbrmotz1f"
+        },
+        {
+          "Name": "label",
+          "Value": "css/MyCat.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-v8Zk+y306E3khcLeeLxgYdzv5zbhp61BNwpcU+klSRg="
+        }
+      ]
+    },
+    {
+      "Route": "css/MyCat.css",
+      "AssetFile": "C:\\Users\\User\\Desktop\\Lab250205_EmptyASP.NET_PJ\\wwwroot\\css\\MyCat.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "57"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"v8Zk+y306E3khcLeeLxgYdzv5zbhp61BNwpcU+klSRg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 07 Feb 2025 02:38:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-v8Zk+y306E3khcLeeLxgYdzv5zbhp61BNwpcU+klSRg="
+        }
+      ]
+    }
+  ]
+}

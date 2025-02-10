@@ -1,0 +1,45 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<h1>我是雷蛇</h1>
+@{
+	var theMonth = DateTime.Now.Month;
+}
+<h1>@theMonth</h1>
+
+@{
+	var myFilePath = $@"C:\MyFolder\{theMonth}";
+}
+<h1>The path is : @myFilePath</h1>
+
+<a href="mailto:Support@contoso.com">Support@contoso.com</a>
+
+<br />
+@Html.Raw("<span>Hello World</span>")
+<br />
+@{
+	void RenderName<T>(string name, int a)
+	{
+		<p>Name:<strong>@name,@a</strong></p>
+	}
+	RenderName<int>("一二三", 123);
+	RenderName<int>("四五六", 456);
+}
+@* @(RenderName<int>("四五六", 456); ) 本例子不建議套用泛型，建議將function獨立，不要寫在HTML裡面。   *@
+
+@{
+	string[] people= { "apple","banana"};
+}
+@for (var i = 0; i < people.Length; i++)
+{
+	var person = people[i];
+	<text>Name: @person</text>
+}
+
+@{
+
+}
+
+

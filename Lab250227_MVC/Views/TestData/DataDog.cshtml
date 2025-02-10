@@ -8,5 +8,12 @@ WOLF!
 <p>  看資料 D1 ：@TempData["D1"]       </p>
 <p>  看資料 D2 ：@TempData.Peek("D2")  </p>
 <hr />
+<div class=" text-center">
+    <p>
+        <b>Name:@Context.Session.GetString("_Name")</b>
+        <b>Age:@Context.Session.GetInt32("_Age")</b>
+    </p>
+
+</div>
 
 

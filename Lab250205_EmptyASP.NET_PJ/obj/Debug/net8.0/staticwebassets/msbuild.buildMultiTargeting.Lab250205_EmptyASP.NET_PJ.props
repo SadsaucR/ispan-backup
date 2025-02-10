@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Lab250205_EmptyASP.NET_PJ.props" />
+</Project>

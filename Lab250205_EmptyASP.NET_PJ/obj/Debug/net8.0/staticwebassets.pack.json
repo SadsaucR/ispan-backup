@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Lab250205_EmptyASP.NET_PJ\\wwwroot\\css\\MyCat.css",
+      "PackagePath": "staticwebassets\\css\\MyCat.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Lab250205_EmptyASP.NET_PJ\\wwwroot\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Lab250205_EmptyASP.NET_PJ.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Lab250205_EmptyASP.NET_PJ.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Lab250205_EmptyASP.NET_PJ.props",
+      "PackagePath": "build\\Lab250205_EmptyASP.NET_PJ.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Lab250205_EmptyASP.NET_PJ.props",
+      "PackagePath": "buildMultiTargeting\\Lab250205_EmptyASP.NET_PJ.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Lab250205_EmptyASP.NET_PJ.props",
+      "PackagePath": "buildTransitive\\Lab250205_EmptyASP.NET_PJ.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

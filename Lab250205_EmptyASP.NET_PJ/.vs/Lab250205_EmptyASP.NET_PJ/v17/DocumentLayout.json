@@ -1,0 +1,134 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\Lab250205_EmptyASP.NET_PJ\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5B10B184-2F58-4DD9-97DA-ED0A64A51D25}|Lab250205_EmptyASP.NET_PJ.csproj|c:\\users\\user\\desktop\\lab250205_emptyasp.net_pj\\views\\anime\\doraemon.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5B10B184-2F58-4DD9-97DA-ED0A64A51D25}|Lab250205_EmptyASP.NET_PJ.csproj|solutionrelative:views\\anime\\doraemon.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B10B184-2F58-4DD9-97DA-ED0A64A51D25}|Lab250205_EmptyASP.NET_PJ.csproj|c:\\users\\user\\desktop\\lab250205_emptyasp.net_pj\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5B10B184-2F58-4DD9-97DA-ED0A64A51D25}|Lab250205_EmptyASP.NET_PJ.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B10B184-2F58-4DD9-97DA-ED0A64A51D25}|Lab250205_EmptyASP.NET_PJ.csproj|c:\\users\\user\\desktop\\lab250205_emptyasp.net_pj\\views\\anime\\pokemon.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5B10B184-2F58-4DD9-97DA-ED0A64A51D25}|Lab250205_EmptyASP.NET_PJ.csproj|solutionrelative:views\\anime\\pokemon.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B10B184-2F58-4DD9-97DA-ED0A64A51D25}|Lab250205_EmptyASP.NET_PJ.csproj|c:\\users\\user\\desktop\\lab250205_emptyasp.net_pj\\views\\shared\\apple\\_layoutapple.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5B10B184-2F58-4DD9-97DA-ED0A64A51D25}|Lab250205_EmptyASP.NET_PJ.csproj|solutionrelative:views\\shared\\apple\\_layoutapple.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B10B184-2F58-4DD9-97DA-ED0A64A51D25}|Lab250205_EmptyASP.NET_PJ.csproj|c:\\users\\user\\desktop\\lab250205_emptyasp.net_pj\\views\\shared\\_layoutyellow.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5B10B184-2F58-4DD9-97DA-ED0A64A51D25}|Lab250205_EmptyASP.NET_PJ.csproj|solutionrelative:views\\shared\\_layoutyellow.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B10B184-2F58-4DD9-97DA-ED0A64A51D25}|Lab250205_EmptyASP.NET_PJ.csproj|c:\\users\\user\\desktop\\lab250205_emptyasp.net_pj\\wwwroot\\css\\mycat.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{5B10B184-2F58-4DD9-97DA-ED0A64A51D25}|Lab250205_EmptyASP.NET_PJ.csproj|solutionrelative:wwwroot\\css\\mycat.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lab250205_EmptyASP.NET_PJ\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Lab250205_EmptyASP.NET_PJ\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAIwBAAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-07T05:43:56.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Doraemon.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lab250205_EmptyASP.NET_PJ\\Views\\Anime\\Doraemon.cshtml",
+              "RelativeDocumentMoniker": "Views\\Anime\\Doraemon.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Lab250205_EmptyASP.NET_PJ\\Views\\Anime\\Doraemon.cshtml",
+              "RelativeToolTip": "Views\\Anime\\Doraemon.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwUAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-07T05:43:52.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Pokemon.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lab250205_EmptyASP.NET_PJ\\Views\\Anime\\Pokemon.cshtml",
+              "RelativeDocumentMoniker": "Views\\Anime\\Pokemon.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Lab250205_EmptyASP.NET_PJ\\Views\\Anime\\Pokemon.cshtml",
+              "RelativeToolTip": "Views\\Anime\\Pokemon.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-07T05:43:45.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_LayoutApple.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lab250205_EmptyASP.NET_PJ\\Views\\Shared\\Apple\\_LayoutApple.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Apple\\_LayoutApple.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Lab250205_EmptyASP.NET_PJ\\Views\\Shared\\Apple\\_LayoutApple.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Apple\\_LayoutApple.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwkAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-07T05:43:20.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_LayoutYellow.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lab250205_EmptyASP.NET_PJ\\Views\\Shared\\_LayoutYellow.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_LayoutYellow.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Lab250205_EmptyASP.NET_PJ\\Views\\Shared\\_LayoutYellow.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_LayoutYellow.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAC0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-07T03:23:45.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MyCat.css",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Lab250205_EmptyASP.NET_PJ\\wwwroot\\css\\MyCat.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\MyCat.css",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Lab250205_EmptyASP.NET_PJ\\wwwroot\\css\\MyCat.css",
+              "RelativeToolTip": "wwwroot\\css\\MyCat.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-02-07T02:31:15.091Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

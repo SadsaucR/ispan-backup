@@ -2,20 +2,13 @@
     For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 *@
 @{
-    void btprint()
-    {
-        for (var i = 1; i <= ViewBag.A1; i++)
-        {
-            <p>@ViewBag.A2</p>
-        }
-    }
+    bool iscall = false;
 }
 <script>
     function call() {
-    return 1;
+
     }
 </script>
-
 <h1>今天是星期五</h1>
 <hr />
 <p>  看資料 D1 ：@TempData["D1"]       </p>
@@ -38,5 +31,12 @@
 <input name="name" value="@ViewBag.A1" />
 <button name="ptbutton" onclick="call()">PRINT</button>
 <hr/>
+<div class=" text-center">
+    <p>
+        <b>Name:@Context.Session.GetString("_Name")</b>
+        <b>Age:@Context.Session.GetInt32("_Age")</b>
+    </p>
+
+</div>
 
 

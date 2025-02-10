@@ -1,0 +1,49 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Lab250205_EmptyASP.NET_PJ
+build_property.RootNamespace = Lab250205_EmptyASP.NET_PJ
+build_property.ProjectDir = C:\Users\User\Desktop\Lab250205_EmptyASP.NET_PJ\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\User\Desktop\Lab250205_EmptyASP.NET_PJ
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/User/Desktop/Lab250205_EmptyASP.NET_PJ/Views/Anime/Doraemon.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5pbWVcRG9yYWVtb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/Lab250205_EmptyASP.NET_PJ/Views/Anime/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5pbWVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/Lab250205_EmptyASP.NET_PJ/Views/Anime/Pokemon.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5pbWVcUG9rZW1vbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/Lab250205_EmptyASP.NET_PJ/Views/Shared/Apple/_LayoutApple.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEFwcGxlXF9MYXlvdXRBcHBsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/Lab250205_EmptyASP.NET_PJ/Views/Shared/_LayoutBlue.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRCbHVlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/Lab250205_EmptyASP.NET_PJ/Views/Shared/_LayoutYellow.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRZZWxsb3cuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/Lab250205_EmptyASP.NET_PJ/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

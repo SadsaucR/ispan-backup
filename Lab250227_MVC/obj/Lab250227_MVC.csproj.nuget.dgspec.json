@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\Lab250227_MVC\\Lab250227_MVC.csproj": {}
+    "C:\\Users\\User\\Desktop\\ispan-backup\\Lab250227_MVC\\Lab250227_MVC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\Lab250227_MVC\\Lab250227_MVC.csproj": {
+    "C:\\Users\\User\\Desktop\\ispan-backup\\Lab250227_MVC\\Lab250227_MVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\Lab250227_MVC\\Lab250227_MVC.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\ispan-backup\\Lab250227_MVC\\Lab250227_MVC.csproj",
         "projectName": "Lab250227_MVC",
-        "projectPath": "C:\\Users\\User\\Desktop\\Lab250227_MVC\\Lab250227_MVC.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\ispan-backup\\Lab250227_MVC\\Lab250227_MVC.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\Lab250227_MVC\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\ispan-backup\\Lab250227_MVC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

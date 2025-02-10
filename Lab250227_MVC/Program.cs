@@ -39,6 +39,6 @@ app.UseSession();
 //¹w³]­º­¶
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=TestData}/{action=Index}/{id?}");
+    pattern: "{controller=Razor}/{action=Account}/{id?}");
 
 app.Run();
