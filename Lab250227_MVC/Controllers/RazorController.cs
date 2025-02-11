@@ -8,14 +8,5 @@ namespace Lab250227_MVC.Controllers
         {
             return View();
         }
-
-        public IActionResult Account()
-        {
-            ViewBag.UserName = "皮卡丘";
-            ViewBag.UserSex = "F";
-            ViewBag.UserAddr = "TPE";
-
-            return View();
-        }
     }
 }

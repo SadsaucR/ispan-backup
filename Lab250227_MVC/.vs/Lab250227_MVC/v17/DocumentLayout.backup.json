@@ -3,36 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\ispan-backup\\Lab250227_MVC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0FECC4F7-581B-4169-B6D0-55540D717BA1}|Lab250227_MVC.csproj|c:\\users\\user\\desktop\\ispan-backup\\lab250227_mvc\\controllers\\razorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FECC4F7-581B-4169-B6D0-55540D717BA1}|Lab250227_MVC.csproj|solutionrelative:controllers\\razorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0FECC4F7-581B-4169-B6D0-55540D717BA1}|Lab250227_MVC.csproj|c:\\users\\user\\desktop\\ispan-backup\\lab250227_mvc\\views\\testroute\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0FECC4F7-581B-4169-B6D0-55540D717BA1}|Lab250227_MVC.csproj|solutionrelative:views\\testroute\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0FECC4F7-581B-4169-B6D0-55540D717BA1}|Lab250227_MVC.csproj|c:\\users\\user\\desktop\\ispan-backup\\lab250227_mvc\\views\\razor\\account.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0FECC4F7-581B-4169-B6D0-55540D717BA1}|Lab250227_MVC.csproj|solutionrelative:views\\razor\\account.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{0FECC4F7-581B-4169-B6D0-55540D717BA1}|Lab250227_MVC.csproj|c:\\users\\user\\desktop\\ispan-backup\\lab250227_mvc\\controllers\\testroutecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FECC4F7-581B-4169-B6D0-55540D717BA1}|Lab250227_MVC.csproj|solutionrelative:controllers\\testroutecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0FECC4F7-581B-4169-B6D0-55540D717BA1}|Lab250227_MVC.csproj|c:\\users\\user\\desktop\\ispan-backup\\lab250227_mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0FECC4F7-581B-4169-B6D0-55540D717BA1}|Lab250227_MVC.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0FECC4F7-581B-4169-B6D0-55540D717BA1}|Lab250227_MVC.csproj|c:\\users\\user\\desktop\\ispan-backup\\lab250227_mvc\\views\\testdata\\datadog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0FECC4F7-581B-4169-B6D0-55540D717BA1}|Lab250227_MVC.csproj|solutionrelative:views\\testdata\\datadog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0FECC4F7-581B-4169-B6D0-55540D717BA1}|Lab250227_MVC.csproj|c:\\users\\user\\desktop\\ispan-backup\\lab250227_mvc\\views\\testdata\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0FECC4F7-581B-4169-B6D0-55540D717BA1}|Lab250227_MVC.csproj|solutionrelative:views\\testdata\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0FECC4F7-581B-4169-B6D0-55540D717BA1}|Lab250227_MVC.csproj|c:\\users\\user\\desktop\\ispan-backup\\lab250227_mvc\\controllers\\testdatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FECC4F7-581B-4169-B6D0-55540D717BA1}|Lab250227_MVC.csproj|solutionrelative:controllers\\testdatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0FECC4F7-581B-4169-B6D0-55540D717BA1}|Lab250227_MVC.csproj|c:\\users\\user\\desktop\\ispan-backup\\lab250227_mvc\\views\\testdata\\datasession.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0FECC4F7-581B-4169-B6D0-55540D717BA1}|Lab250227_MVC.csproj|solutionrelative:views\\testdata\\datasession.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0FECC4F7-581B-4169-B6D0-55540D717BA1}|Lab250227_MVC.csproj|c:\\users\\user\\desktop\\ispan-backup\\lab250227_mvc\\views\\testdata\\datacat.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0FECC4F7-581B-4169-B6D0-55540D717BA1}|Lab250227_MVC.csproj|solutionrelative:views\\testdata\\datacat.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,106 +38,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ispan-backup\\Lab250227_MVC\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\ispan-backup\\Lab250227_MVC\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAADwvykAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-10T07:39:58.694Z",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ispan-backup\\Lab250227_MVC\\Views\\TestRoute\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\TestRoute\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\ispan-backup\\Lab250227_MVC\\Views\\TestRoute\\Index.cshtml",
+              "RelativeToolTip": "Views\\TestRoute\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-11T02:32:18.217Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Account.cshtml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ispan-backup\\Lab250227_MVC\\Views\\Razor\\Account.cshtml",
-              "RelativeDocumentMoniker": "Views\\Razor\\Account.cshtml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\ispan-backup\\Lab250227_MVC\\Views\\Razor\\Account.cshtml",
-              "RelativeToolTip": "Views\\Razor\\Account.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-10T07:35:51.093Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "RazorController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ispan-backup\\Lab250227_MVC\\Controllers\\RazorController.cs",
-              "RelativeDocumentMoniker": "Controllers\\RazorController.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\ispan-backup\\Lab250227_MVC\\Controllers\\RazorController.cs",
-              "RelativeToolTip": "Controllers\\RazorController.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAswAoAAAAAAAAAAAAAAA==",
+              "Title": "TestRouteController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ispan-backup\\Lab250227_MVC\\Controllers\\TestRouteController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TestRouteController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\ispan-backup\\Lab250227_MVC\\Controllers\\TestRouteController.cs",
+              "RelativeToolTip": "Controllers\\TestRouteController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-10T07:33:47.932Z",
+              "WhenOpened": "2025-02-11T02:32:09.396Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ispan-backup\\Lab250227_MVC\\Views\\TestData\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\TestData\\Index.cshtml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\ispan-backup\\Lab250227_MVC\\Views\\TestData\\Index.cshtml",
-              "RelativeToolTip": "Views\\TestData\\Index.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAADwvxoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-10T02:38:38.926Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DataDog.cshtml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ispan-backup\\Lab250227_MVC\\Views\\TestData\\DataDog.cshtml",
-              "RelativeDocumentMoniker": "Views\\TestData\\DataDog.cshtml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\ispan-backup\\Lab250227_MVC\\Views\\TestData\\DataDog.cshtml",
-              "RelativeToolTip": "Views\\TestData\\DataDog.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwkAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-10T02:38:15.454Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "DataCat.cshtml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ispan-backup\\Lab250227_MVC\\Views\\TestData\\DataCat.cshtml",
-              "RelativeDocumentMoniker": "Views\\TestData\\DataCat.cshtml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\ispan-backup\\Lab250227_MVC\\Views\\TestData\\DataCat.cshtml",
-              "RelativeToolTip": "Views\\TestData\\DataCat.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvxAAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-10T02:38:12.007Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "TestDataController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ispan-backup\\Lab250227_MVC\\Controllers\\TestDataController.cs",
-              "RelativeDocumentMoniker": "Controllers\\TestDataController.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\ispan-backup\\Lab250227_MVC\\Controllers\\TestDataController.cs",
-              "RelativeToolTip": "Controllers\\TestDataController.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAswAAAAAAfAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ispan-backup\\Lab250227_MVC\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\ispan-backup\\Lab250227_MVC\\Program.cs*",
+              "RelativeToolTip": "Program.cs*",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADQAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T05:54:53.78Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "DataSession.cshtml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ispan-backup\\Lab250227_MVC\\Views\\TestData\\DataSession.cshtml",
-              "RelativeDocumentMoniker": "Views\\TestData\\DataSession.cshtml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\ispan-backup\\Lab250227_MVC\\Views\\TestData\\DataSession.cshtml",
-              "RelativeToolTip": "Views\\TestData\\DataSession.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-07T08:01:58.215Z",
+              "WhenOpened": "2025-02-10T07:39:58.694Z",
               "EditorCaption": ""
             }
           ]

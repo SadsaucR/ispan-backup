@@ -1,0 +1,32 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+	var xa = ViewBag.User.UserName;
+	var xb = ViewBag.User.UserSex;
+	var xc = ViewBag.User.UserAddr;
+}
+
+<p>  @ViewBag.UserName;    </p>
+
+<p>  @ViewBag.UserSex;   </p>
+
+<p>  @ViewBag.UserAddr;   </p>
+
+<hr />
+<span>姓名:</span>
+<input type="text" id="Username" value="@xa" />
+<br>
+<span>性別:</span>
+@* 三元運算子 *@
+<input type="radio" id="Male" name="sex" value="M" checked=@(xb == "M" ? true : false)>男生
+<input type="radio" id="Female" name="sex" value="F" checked=@(xb=="F" ? true : false )>女生
+<br>
+<label>居住地:</label>
+@* 直接判斷 *@
+<select name="live" id="Live">
+	<option value="TPE" selected="@(xc == "TPE")">台北</option>
+	<option value="TCH" selected="@(xc == "TCH")">台中</option>
+	<option value="TNN" selected="@(xc == "TNN")">台南</option>
+</select>
+<hr />

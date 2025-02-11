@@ -37,8 +37,22 @@ app.UseSession();
 //    pattern: "{controller=Home}/{action=Index}/{id?}");
 
 //¹w³]­º­¶
+//app.MapControllerRoute(
+//    name: "default",
+//    pattern: "{controller=TestRoute}/{action=Index}/{id?}/{tag?}");
+
 app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Razor}/{action=Account}/{id?}");
+    name: "MouseB",
+    pattern: "{controller=TestRoute}/{action=Mouse}/{apple?}/{bee?}"
+    );
+
+
+
+app.MapControllerRoute(
+    name: "MouseA",
+    pattern: "{controller=TestRoute}/{action=Mouse}/{id?}"
+    );
+
+
 
 app.Run();

@@ -16,13 +16,15 @@
 <input type="text" id="Username" value="@xa" />
 <br>
 <span>性別:</span>
-<input type="radio" id="Male" name="sex" value="M" @(xb == "M" ? "checked" : "unchecked")>男生
-<input type="radio" id="Female" name="sex" value="F" @(xb == "F" ? "checked" : "unchecked")>女生
+@* 三元運算子 *@
+<input type="radio" id="Male" name="sex" value="M" checked=@(xb == "M" ? true : false)>男生
+<input type="radio" id="Female" name="sex" value="F" checked=@(xb=="F" ? true : false )>女生
 <br>
 <label>居住地:</label>
+@* 直接判斷 *@
 <select name="live" id="Live">
-	<option value="TPE" selected="@Html.Raw(xc == "TPE" ? "selected" : "")">台北</option>
-	<option value="TCH" selected="@Html.Raw(xc == "TCH" ? "selected" : "")">台中</option>
-	<option value="TNN" selected="@Html.Raw(xc == "TNN" ? "selected" : "")">台南</option>
+	<option value="TPE" selected="@(xc == "TPE")">台北</option>
+	<option value="TCH" selected="@(xc == "TCH")">台中</option>
+	<option value="TNN" selected="@(xc == "TNN")">台南</option>
 </select>
 <hr />
