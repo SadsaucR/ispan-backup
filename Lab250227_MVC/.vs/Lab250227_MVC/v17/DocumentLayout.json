@@ -3,16 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\ispan-backup\\Lab250227_MVC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0FECC4F7-581B-4169-B6D0-55540D717BA1}|Lab250227_MVC.csproj|c:\\users\\user\\desktop\\ispan-backup\\lab250227_mvc\\controllers\\testroutecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FECC4F7-581B-4169-B6D0-55540D717BA1}|Lab250227_MVC.csproj|solutionrelative:controllers\\testroutecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0FECC4F7-581B-4169-B6D0-55540D717BA1}|Lab250227_MVC.csproj|c:\\users\\user\\desktop\\ispan-backup\\lab250227_mvc\\controllers\\testjsoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FECC4F7-581B-4169-B6D0-55540D717BA1}|Lab250227_MVC.csproj|solutionrelative:controllers\\testjsoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FECC4F7-581B-4169-B6D0-55540D717BA1}|Lab250227_MVC.csproj|c:\\users\\user\\desktop\\ispan-backup\\lab250227_mvc\\views\\testjson\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0FECC4F7-581B-4169-B6D0-55540D717BA1}|Lab250227_MVC.csproj|solutionrelative:views\\testjson\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FECC4F7-581B-4169-B6D0-55540D717BA1}|Lab250227_MVC.csproj|c:\\users\\user\\desktop\\ispan-backup\\lab250227_mvc\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FECC4F7-581B-4169-B6D0-55540D717BA1}|Lab250227_MVC.csproj|solutionrelative:product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FECC4F7-581B-4169-B6D0-55540D717BA1}|Lab250227_MVC.csproj|c:\\users\\user\\desktop\\ispan-backup\\lab250227_mvc\\accountdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FECC4F7-581B-4169-B6D0-55540D717BA1}|Lab250227_MVC.csproj|solutionrelative:accountdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FECC4F7-581B-4169-B6D0-55540D717BA1}|Lab250227_MVC.csproj|c:\\users\\user\\desktop\\ispan-backup\\lab250227_mvc\\controllers\\testpartialviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FECC4F7-581B-4169-B6D0-55540D717BA1}|Lab250227_MVC.csproj|solutionrelative:controllers\\testpartialviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0FECC4F7-581B-4169-B6D0-55540D717BA1}|Lab250227_MVC.csproj|c:\\users\\user\\desktop\\ispan-backup\\lab250227_mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0FECC4F7-581B-4169-B6D0-55540D717BA1}|Lab250227_MVC.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0FECC4F7-581B-4169-B6D0-55540D717BA1}|Lab250227_MVC.csproj|c:\\users\\user\\desktop\\ispan-backup\\lab250227_mvc\\views\\testroute\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0FECC4F7-581B-4169-B6D0-55540D717BA1}|Lab250227_MVC.csproj|solutionrelative:views\\testroute\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{0FECC4F7-581B-4169-B6D0-55540D717BA1}|Lab250227_MVC.csproj|c:\\users\\user\\desktop\\ispan-backup\\lab250227_mvc\\views\\testpartialview\\shiro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0FECC4F7-581B-4169-B6D0-55540D717BA1}|Lab250227_MVC.csproj|solutionrelative:views\\testpartialview\\shiro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FECC4F7-581B-4169-B6D0-55540D717BA1}|Lab250227_MVC.csproj|c:\\users\\user\\desktop\\ispan-backup\\lab250227_mvc\\views\\shared\\_authorpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0FECC4F7-581B-4169-B6D0-55540D717BA1}|Lab250227_MVC.csproj|solutionrelative:views\\shared\\_authorpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FECC4F7-581B-4169-B6D0-55540D717BA1}|Lab250227_MVC.csproj|c:\\users\\user\\desktop\\ispan-backup\\lab250227_mvc\\views\\testpartialview\\himawari.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0FECC4F7-581B-4169-B6D0-55540D717BA1}|Lab250227_MVC.csproj|solutionrelative:views\\testpartialview\\himawari.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FECC4F7-581B-4169-B6D0-55540D717BA1}|Lab250227_MVC.csproj|c:\\users\\user\\desktop\\ispan-backup\\lab250227_mvc\\views\\testpartialview\\nanako.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0FECC4F7-581B-4169-B6D0-55540D717BA1}|Lab250227_MVC.csproj|solutionrelative:views\\testpartialview\\nanako.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,41 +66,132 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ispan-backup\\Lab250227_MVC\\Views\\TestRoute\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\TestRoute\\Index.cshtml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\ispan-backup\\Lab250227_MVC\\Views\\TestRoute\\Index.cshtml",
-              "RelativeToolTip": "Views\\TestRoute\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-11T02:32:18.217Z",
+              "DocumentIndex": 3,
+              "Title": "AccountData.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ispan-backup\\Lab250227_MVC\\AccountData.cs",
+              "RelativeDocumentMoniker": "AccountData.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\ispan-backup\\Lab250227_MVC\\AccountData.cs",
+              "RelativeToolTip": "AccountData.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAA+wBAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T08:22:51.531Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TestRouteController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ispan-backup\\Lab250227_MVC\\Controllers\\TestRouteController.cs",
-              "RelativeDocumentMoniker": "Controllers\\TestRouteController.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\ispan-backup\\Lab250227_MVC\\Controllers\\TestRouteController.cs",
-              "RelativeToolTip": "Controllers\\TestRouteController.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAowCwAAAA1AAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ispan-backup\\Lab250227_MVC\\Product.cs",
+              "RelativeDocumentMoniker": "Product.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\ispan-backup\\Lab250227_MVC\\Product.cs",
+              "RelativeToolTip": "Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvw8AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-11T02:32:09.396Z",
+              "WhenOpened": "2025-02-12T08:22:26.577Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ispan-backup\\Lab250227_MVC\\Views\\TestJSON\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\TestJSON\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\ispan-backup\\Lab250227_MVC\\Views\\TestJSON\\Index.cshtml",
+              "RelativeToolTip": "Views\\TestJSON\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwYAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-12T08:15:23.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TestJSONController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ispan-backup\\Lab250227_MVC\\Controllers\\TestJSONController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TestJSONController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\ispan-backup\\Lab250227_MVC\\Controllers\\TestJSONController.cs",
+              "RelativeToolTip": "Controllers\\TestJSONController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T08:15:16.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Shiro.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ispan-backup\\Lab250227_MVC\\Views\\TestPartialView\\Shiro.cshtml",
+              "RelativeDocumentMoniker": "Views\\TestPartialView\\Shiro.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\ispan-backup\\Lab250227_MVC\\Views\\TestPartialView\\Shiro.cshtml",
+              "RelativeToolTip": "Views\\TestPartialView\\Shiro.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-12T06:13:21.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_AuthorPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ispan-backup\\Lab250227_MVC\\Views\\Shared\\_AuthorPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_AuthorPartial.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\ispan-backup\\Lab250227_MVC\\Views\\Shared\\_AuthorPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_AuthorPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-12T06:12:10.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\ispan-backup\\Lab250227_MVC\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\ispan-backup\\Lab250227_MVC\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAADQAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACQAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-10T07:39:58.694Z",
+              "WhenOpened": "2025-02-12T05:54:52.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Himawari.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ispan-backup\\Lab250227_MVC\\Views\\TestPartialView\\Himawari.cshtml",
+              "RelativeDocumentMoniker": "Views\\TestPartialView\\Himawari.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\ispan-backup\\Lab250227_MVC\\Views\\TestPartialView\\Himawari.cshtml",
+              "RelativeToolTip": "Views\\TestPartialView\\Himawari.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-12T05:54:02.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Nanako.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ispan-backup\\Lab250227_MVC\\Views\\TestPartialView\\Nanako.cshtml",
+              "RelativeDocumentMoniker": "Views\\TestPartialView\\Nanako.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\ispan-backup\\Lab250227_MVC\\Views\\TestPartialView\\Nanako.cshtml",
+              "RelativeToolTip": "Views\\TestPartialView\\Nanako.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-12T05:53:54.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TestPartialViewController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ispan-backup\\Lab250227_MVC\\Controllers\\TestPartialViewController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TestPartialViewController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\ispan-backup\\Lab250227_MVC\\Controllers\\TestPartialViewController.cs",
+              "RelativeToolTip": "Controllers\\TestPartialViewController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T05:53:10.633Z",
               "EditorCaption": ""
             }
           ]

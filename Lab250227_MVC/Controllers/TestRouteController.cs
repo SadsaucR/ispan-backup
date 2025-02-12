@@ -42,9 +42,21 @@ namespace Lab250227_MVC.Controllers
 
         public string Duck()
         {
-            string x = HttpContext.Request.Query["cat"];
-            string y = HttpContext.Request.Query["dog"];
+            string? x = HttpContext.Request.Query["cat"];
+            string? y = HttpContext.Request.Query["dog"];
             return "唐老鴨" + x + "和" + y;
+        }
+
+        public IActionResult Rabbit(string id)
+        {
+            ViewBag.R = $"兔八哥 id:{id}";
+            return View();
+        }
+
+        public IActionResult Prod(string id)
+        {
+            ViewBag.P = $"產品id為:{id}";
+            return View();
         }
 
     }

@@ -1,0 +1,17 @@
+﻿@{
+    Layout = "_Layout";
+}
+<h3>Shiro</h3>
+<h3>@ViewData["Dog"]</h3>
+<div class="container">
+    <div class="row">
+    @{
+        for(int i = 0;i<6;i++)
+            @await Html.PartialAsync("_AuthorPartial")
+     }
+     </div>
+</div>
+@* 
+    Renderbody 僅能呼叫一次 
+   而PartielView 可呼叫多次
+*@

@@ -36,12 +36,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/User/Desktop/ispan-backup/Lab250227_MVC/Views/Prod/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/User/Desktop/ispan-backup/Lab250227_MVC/Views/Razor/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmF6b3JcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/User/Desktop/ispan-backup/Lab250227_MVC/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/ispan-backup/Lab250227_MVC/Views/Shared/_AuthorPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BdXRob3JQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/User/Desktop/ispan-backup/Lab250227_MVC/Views/Shared/_ValidationScriptsPartial.cshtml]
@@ -64,8 +72,56 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdERhdGFcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/User/Desktop/ispan-backup/Lab250227_MVC/Views/TestJSON/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdEpTT05cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/ispan-backup/Lab250227_MVC/Views/TestPartialView/Himawari.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdFBhcnRpYWxWaWV3XEhpbWF3YXJpLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/ispan-backup/Lab250227_MVC/Views/TestPartialView/Nanako.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdFBhcnRpYWxWaWV3XE5hbmFrby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/ispan-backup/Lab250227_MVC/Views/TestPartialView/Shiro.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdFBhcnRpYWxWaWV3XFNoaXJvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/User/Desktop/ispan-backup/Lab250227_MVC/Views/TestRoute/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdFJvdXRlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/ispan-backup/Lab250227_MVC/Views/TestRoute/Prod.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdFJvdXRlXFByb2QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/ispan-backup/Lab250227_MVC/Views/TestRoute/Rabbit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdFJvdXRlXFJhYmJpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/ispan-backup/Lab250227_MVC/Views/TestView/Bob.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdFZpZXdcQm9iLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/ispan-backup/Lab250227_MVC/Views/TestView/Elsa.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdFZpZXdcRWxzYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/ispan-backup/Lab250227_MVC/Views/TestView/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdFZpZXdcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/ispan-backup/Lab250227_MVC/Views/TestView/Olaf.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdFZpZXdcT2xhZi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/ispan-backup/Lab250227_MVC/Views/TestView/Pikachu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdFZpZXdcUGlrYWNodS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/ispan-backup/Lab250227_MVC/Views/TestView/Rickroll.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdFZpZXdcUmlja3JvbGwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/User/Desktop/ispan-backup/Lab250227_MVC/Views/_ViewImports.cshtml]

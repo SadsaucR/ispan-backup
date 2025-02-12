@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\User\\Desktop\\ispan-backup\\Lab250227_MVC\\wwwroot\\img\\1.gif",
+      "PackagePath": "staticwebassets\\img\\1.gif"
+    },
+    {
       "Id": "C:\\Users\\User\\Desktop\\ispan-backup\\Lab250227_MVC\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
