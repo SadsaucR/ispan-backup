@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <title>Document</title>
+</head>
+<body>
+    <script>
+	function mydata() {
+        $.ajax({
+                url:"https://localhost:7292/TestJSON/ProductData",
+                type: "GET",
+                success: function (apple) {
+                    // console.log(apple);
+                    // console.log(apple.data);
+                    for (let k = 0; k < apple.length; k++) {
+                        // console.log(`當K的值為${k}`);
+                        console.log(apple[k]);
+                        var xa = document.createElement("p");
+                        //將文字內容顯示出來
+						xa.innerHTML = "產品為:"+apple[k].productName+" "+"價格為:"+apple[k].productPrice;
+                        document.body.append(xa);
+                    }
+                }
+            })
+		}
+        </script>
+    <button onclick="mydata()">擷取資料 by server json</button>
+</body>
+</html>

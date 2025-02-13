@@ -4,4 +4,77 @@
 @{
 }
 
-<p>JSON</p>
+<script>
+        function printt() {
+                 $.ajax({
+                url:"https://reqres.in/api/users?page=2",
+                type: "GET",
+                success: function (apple) {
+                    // console.log(apple);
+                    // console.log(apple.data);
+                    for (let k = 0; k < apple.data.length; k++) {
+                        // console.log(`當K的值為${k}`);
+                        // console.log(apple.data[k]);
+						var xa = document.createElement("p");
+                    }
+                }
+            })
+            }
+
+	function mydata() {
+        $.ajax({
+                url:"https://localhost:7292/TestJSON/ProductData",
+                type: "GET",
+                success: function (apple) {
+                    // console.log(apple);
+                    // console.log(apple.data);
+                    for (let k = 0; k < apple.length; k++) {
+                        // console.log(`當K的值為${k}`);
+                        console.log(apple[k]);
+                        var xa = document.createElement("p");
+                        //將文字內容顯示出來
+						xa.innerHTML = "產品為:"+apple[k].productName+" "+"價格為:"+apple[k].productPrice;
+                        document.body.append(xa);
+                    }
+                }
+            })
+		}
+
+
+
+
+
+         //             問題1： 上述程式碼中， apple 的資料型態是什麼？
+    // 答案1：Object 物件
+
+
+    // 問題2： 上述程式碼中， apple.data 的資料型態是什麼？
+    // 答案2：Array 陣列
+
+
+    // 問題3： 上述程式碼中， 為什麼迴圈跑了6次？
+    // 答案3：資料來源JSON中的資料數為6筆
+
+
+    // 問題4： 上述程式碼中， apple.data[k] 的資料型態是什麼？
+    // 答案4： Object 物件
+
+
+    // 問題5： 延續問題4，請在結構中找出圖片在哪個屬性底下
+    // 答案5： apple.data[k].avatar
+
+
+    // 問題6： 我該如何取得所有使用者的照片，並顯示在畫面上？
+    // 答案6： 兩種方法
+    // 1. JavaScript
+                        // var xa = document.createElement("img");
+                        // xa.setAttribute= ("src",apple.data[k].avatar);
+                        // document.body.append(xa);
+
+    // 2. jQuery
+                        // var xa = $("<img>");
+                        // xa.attr("src",apple.data[k].avatar);
+                        // $("body").append(xa);
+</script>
+
+<button onclick="mydata()"> 測試Ajax</button>
