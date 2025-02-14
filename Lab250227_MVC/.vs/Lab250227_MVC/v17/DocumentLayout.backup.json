@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\ispan-backup\\Lab250227_MVC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0FECC4F7-581B-4169-B6D0-55540D717BA1}|Lab250227_MVC.csproj|c:\\users\\user\\desktop\\ispan-backup\\lab250227_mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FECC4F7-581B-4169-B6D0-55540D717BA1}|Lab250227_MVC.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0FECC4F7-581B-4169-B6D0-55540D717BA1}|Lab250227_MVC.csproj|c:\\users\\user\\desktop\\ispan-backup\\lab250227_mvc\\controllers\\testjsoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FECC4F7-581B-4169-B6D0-55540D717BA1}|Lab250227_MVC.csproj|solutionrelative:controllers\\testjsoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FECC4F7-581B-4169-B6D0-55540D717BA1}|Lab250227_MVC.csproj|c:\\users\\user\\desktop\\ispan-backup\\lab250227_mvc\\controllers\\testpartialviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FECC4F7-581B-4169-B6D0-55540D717BA1}|Lab250227_MVC.csproj|solutionrelative:controllers\\testpartialviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FECC4F7-581B-4169-B6D0-55540D717BA1}|Lab250227_MVC.csproj|c:\\users\\user\\desktop\\ispan-backup\\lab250227_mvc\\views\\testpartialview\\nanako.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0FECC4F7-581B-4169-B6D0-55540D717BA1}|Lab250227_MVC.csproj|solutionrelative:views\\testpartialview\\nanako.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FECC4F7-581B-4169-B6D0-55540D717BA1}|Lab250227_MVC.csproj|c:\\users\\user\\desktop\\ispan-backup\\lab250227_mvc\\views\\testpartialview\\himawari.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0FECC4F7-581B-4169-B6D0-55540D717BA1}|Lab250227_MVC.csproj|solutionrelative:views\\testpartialview\\himawari.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FECC4F7-581B-4169-B6D0-55540D717BA1}|Lab250227_MVC.csproj|c:\\users\\user\\desktop\\ispan-backup\\lab250227_mvc\\views\\testpartialview\\shiro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0FECC4F7-581B-4169-B6D0-55540D717BA1}|Lab250227_MVC.csproj|solutionrelative:views\\testpartialview\\shiro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0FECC4F7-581B-4169-B6D0-55540D717BA1}|Lab250227_MVC.csproj|c:\\users\\user\\desktop\\ispan-backup\\lab250227_mvc\\views\\shared\\_authorpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -15,24 +31,8 @@
       "RelativeMoniker": "D:0:0:{0FECC4F7-581B-4169-B6D0-55540D717BA1}|Lab250227_MVC.csproj|solutionrelative:views\\testjson\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0FECC4F7-581B-4169-B6D0-55540D717BA1}|Lab250227_MVC.csproj|c:\\users\\user\\desktop\\ispan-backup\\lab250227_mvc\\views\\testpartialview\\shiro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0FECC4F7-581B-4169-B6D0-55540D717BA1}|Lab250227_MVC.csproj|solutionrelative:views\\testpartialview\\shiro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0FECC4F7-581B-4169-B6D0-55540D717BA1}|Lab250227_MVC.csproj|c:\\users\\user\\desktop\\ispan-backup\\lab250227_mvc\\controllers\\testjsoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FECC4F7-581B-4169-B6D0-55540D717BA1}|Lab250227_MVC.csproj|solutionrelative:controllers\\testjsoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0FECC4F7-581B-4169-B6D0-55540D717BA1}|Lab250227_MVC.csproj|c:\\users\\user\\desktop\\ispan-backup\\lab250227_mvc\\controllers\\testpartialviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FECC4F7-581B-4169-B6D0-55540D717BA1}|Lab250227_MVC.csproj|solutionrelative:controllers\\testpartialviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0FECC4F7-581B-4169-B6D0-55540D717BA1}|Lab250227_MVC.csproj|c:\\users\\user\\desktop\\ispan-backup\\lab250227_mvc\\views\\testpartialview\\himawari.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0FECC4F7-581B-4169-B6D0-55540D717BA1}|Lab250227_MVC.csproj|solutionrelative:views\\testpartialview\\himawari.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0FECC4F7-581B-4169-B6D0-55540D717BA1}|Lab250227_MVC.csproj|c:\\users\\user\\desktop\\ispan-backup\\lab250227_mvc\\views\\testpartialview\\nanako.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0FECC4F7-581B-4169-B6D0-55540D717BA1}|Lab250227_MVC.csproj|solutionrelative:views\\testpartialview\\nanako.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{0FECC4F7-581B-4169-B6D0-55540D717BA1}|Lab250227_MVC.csproj|c:\\users\\user\\desktop\\ispan-backup\\lab250227_mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FECC4F7-581B-4169-B6D0-55540D717BA1}|Lab250227_MVC.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,8 +42,22 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TestPartialViewController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ispan-backup\\Lab250227_MVC\\Controllers\\TestPartialViewController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TestPartialViewController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\ispan-backup\\Lab250227_MVC\\Controllers\\TestPartialViewController.cs",
+              "RelativeToolTip": "Controllers\\TestPartialViewController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T05:53:10.633Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -58,7 +72,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\ispan-backup\\Lab250227_MVC\\Views\\TestJSON\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\TestJSON\\Index.cshtml",
@@ -71,20 +85,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "TestJSONController.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\ispan-backup\\Lab250227_MVC\\Controllers\\TestJSONController.cs",
               "RelativeDocumentMoniker": "Controllers\\TestJSONController.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\ispan-backup\\Lab250227_MVC\\Controllers\\TestJSONController.cs",
               "RelativeToolTip": "Controllers\\TestJSONController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAswBEAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-12T08:15:16.712Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Shiro.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\ispan-backup\\Lab250227_MVC\\Views\\TestPartialView\\Shiro.cshtml",
               "RelativeDocumentMoniker": "Views\\TestPartialView\\Shiro.cshtml",
@@ -97,7 +111,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "_AuthorPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\ispan-backup\\Lab250227_MVC\\Views\\Shared\\_AuthorPartial.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_AuthorPartial.cshtml",
@@ -110,20 +124,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\ispan-backup\\Lab250227_MVC\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\ispan-backup\\Lab250227_MVC\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAAwCEAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAACEAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T05:54:52.909Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-12T05:54:52.909Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "Himawari.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\ispan-backup\\Lab250227_MVC\\Views\\TestPartialView\\Himawari.cshtml",
               "RelativeDocumentMoniker": "Views\\TestPartialView\\Himawari.cshtml",
@@ -131,11 +144,12 @@
               "RelativeToolTip": "Views\\TestPartialView\\Himawari.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-12T05:54:02.771Z"
+              "WhenOpened": "2025-02-12T05:54:02.771Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "Nanako.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\ispan-backup\\Lab250227_MVC\\Views\\TestPartialView\\Nanako.cshtml",
               "RelativeDocumentMoniker": "Views\\TestPartialView\\Nanako.cshtml",
@@ -143,19 +157,8 @@
               "RelativeToolTip": "Views\\TestPartialView\\Nanako.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-12T05:53:54.618Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "TestPartialViewController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ispan-backup\\Lab250227_MVC\\Controllers\\TestPartialViewController.cs",
-              "RelativeDocumentMoniker": "Controllers\\TestPartialViewController.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\ispan-backup\\Lab250227_MVC\\Controllers\\TestPartialViewController.cs",
-              "RelativeToolTip": "Controllers\\TestPartialViewController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T05:53:10.633Z"
+              "WhenOpened": "2025-02-12T05:53:54.618Z",
+              "EditorCaption": ""
             }
           ]
         }

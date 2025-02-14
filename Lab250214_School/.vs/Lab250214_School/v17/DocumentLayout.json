@@ -1,0 +1,121 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\ispan-backup\\Lab250214_School\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BC103E02-7ADC-4221-AA4F-1DB21AC7C568}|Lab250214_School.csproj|c:\\users\\user\\desktop\\ispan-backup\\lab250214_school\\views\\school\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC103E02-7ADC-4221-AA4F-1DB21AC7C568}|Lab250214_School.csproj|solutionrelative:views\\school\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC103E02-7ADC-4221-AA4F-1DB21AC7C568}|Lab250214_School.csproj|c:\\users\\user\\desktop\\ispan-backup\\lab250214_school\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC103E02-7ADC-4221-AA4F-1DB21AC7C568}|Lab250214_School.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC103E02-7ADC-4221-AA4F-1DB21AC7C568}|Lab250214_School.csproj|c:\\users\\user\\desktop\\ispan-backup\\lab250214_school\\controllers\\schoolcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC103E02-7ADC-4221-AA4F-1DB21AC7C568}|Lab250214_School.csproj|solutionrelative:controllers\\schoolcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC103E02-7ADC-4221-AA4F-1DB21AC7C568}|Lab250214_School.csproj|c:\\users\\user\\desktop\\ispan-backup\\lab250214_school\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC103E02-7ADC-4221-AA4F-1DB21AC7C568}|Lab250214_School.csproj|solutionrelative:models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC103E02-7ADC-4221-AA4F-1DB21AC7C568}|Lab250214_School.csproj|c:\\users\\user\\desktop\\ispan-backup\\lab250214_school\\views\\school\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC103E02-7ADC-4221-AA4F-1DB21AC7C568}|Lab250214_School.csproj|solutionrelative:views\\school\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ispan-backup\\Lab250214_School\\Views\\School\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\School\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\ispan-backup\\Lab250214_School\\Views\\School\\Edit.cshtml",
+              "RelativeToolTip": "Views\\School\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-14T02:43:56.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ispan-backup\\Lab250214_School\\Views\\School\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\School\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\ispan-backup\\Lab250214_School\\Views\\School\\Index.cshtml",
+              "RelativeToolTip": "Views\\School\\Index.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-14T01:23:54.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ispan-backup\\Lab250214_School\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\ispan-backup\\Lab250214_School\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T01:12:45.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SchoolController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ispan-backup\\Lab250214_School\\Controllers\\SchoolController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SchoolController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\ispan-backup\\Lab250214_School\\Controllers\\SchoolController.cs",
+              "RelativeToolTip": "Controllers\\SchoolController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T01:07:33.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ispan-backup\\Lab250214_School\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "Models\\Student.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\ispan-backup\\Lab250214_School\\Models\\Student.cs",
+              "RelativeToolTip": "Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T01:06:51.805Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
